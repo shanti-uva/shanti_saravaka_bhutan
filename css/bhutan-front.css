@@ -1,0 +1,43 @@
+body{ border-bottom:200px solid #555;}
+ .container-fixed{ max-width:960px;margin:0 auto;}
+ 
+ .banner-grid {overflow:hidden;position:relative;padding-top:5px;margin-top:0px;background:#ccc;}
+ .banner-grid .grid-row{ overflow:hidden;width:100%;white-space:nowrap;text-align:center;height:80px;margin-bottom:1px;}
+ .banner-grid a{ background:#aaa;margin:0 1px;padding:0; width:105px;height:75px; display:inline-block;}
+ .banner-grid .grid-row a:first-child{ margin-left:-45px;}
+ .banner-grid .grid-row:nth-child(3) a{ margin-bottom:0 !important;}
+ .banner-grid .grid-row img{ width:105px; height:75px;}
+    
+ .banner-grid .grid-row.greyscale{ background:#333; height:112px; margin-top:-3px; border:3px solid #fff; border-width:3px 0;}
+ .banner-grid .grid-row.greyscale a{ margin:9px 3px; width:130px;height:90px;}
+ .banner-grid .grid-row.greyscale a:first-child{ margin-left:-40px;}
+ .banner-grid .grid-row.greyscale img{ width:130px; height:90px;}	
+ 
+ /* textbox on thumbnail grid */	   
+ .grid-textbox-wrapper{ width:100%;}
+ .grid-textbox-wrapper .container-fixed{ position:relative;}
+ .grid-textbox{ border:1px solid #c0c0c0; padding:1rem; position:absolute;top:2rem;right:1rem;background:rgba(50,50,50, 0.70000);}
+ .grid-textbox > div{ background:white;padding:1.5rem;height:18rem; width:33rem;}
+ .grid-textbox h3{ font-size:1.56em; text-transform:uppercase;margin:0 0 0.4rem;padding:0;color:cornflowerblue;}
+ .grid-textbox p{ padding-left:2px;}
+
+ .home-intro{ min-height:100px;max-width:960px;margin:15px auto;}
+ .home-intro .row{ background:#f0f0f0;padding:1.5rem 2.5rem;}
+ .intro-summary p{ font-size:1em;color:#606060;font-style:italic;}
+ .intro-search{}
+ 
+ .home-teaser-wrapper{ background:#f0f0f0;}
+ .home-teaser-wrapper .container-fixed{ padding-bottom:5rem;}	   
+ .teaser{ height:190px;padding:3rem;}
+ .teaser.odd{ background:white;}
+ .tzr-summary p{ margin-left:160px;}
+ .tzr-summary .teaser-title{ font-size:2em;color:cornflowerblue;line-height:1em; margin-right:1rem;font-family:'museo-sans-300',arial,sans-serif;}
+ 
+ .tzr-related{ background:#fff;padding:1.5rem 1.5rem 1.5rem 2rem;}
+ .teaser.odd .tzr-related{ background:#eee;}
+ .tzr-related h4{ margin:0;padding:0;}
+ .tzr-related ul{ margin:0.5rem 0 0 1rem;padding:0;}
+ .tzr-related ul li{ }
+ 	   
+ .teaser-feature{ margin:30px -30px;}
+ .tzr-feature > div{ background:#fff;height:250px;padding:2rem;}	   
