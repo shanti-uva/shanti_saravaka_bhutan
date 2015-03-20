@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Starter Kit for a Sub-Theme of the Shanti Sarvaka Theme
 
 This folder should be used to create a sub-theme for the Shanti Sarvaka theme. 
@@ -29,3 +30,7 @@ Change the Mediabase's color shown here to the subtheme's custom color:
 .nav-justified>li.active a:focus{ background:#32ccca;}
 .nav-justified>li.active:before{ color:#32ccca;}
 /* END subtheme colors */
+=======
+# shanti_saravaka_bhutan
+A child sub-theme of Shanti Sarvaka tailored for the Bhutan Oral Traditions site
+>>>>>>> ff3ad5d98856e307fccb1b4fba45301d0b46c35f
