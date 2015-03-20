@@ -2,10 +2,29 @@
 
 /**
  * @file
- * template.php
+ * template.php for Bhutan Oral Traditions Theme based on Shanti Sarvaka
  */
  
- /**
-  *   This is the template.php file for a child sub-theme of the Shanti Sarvaka theme.
-  *   Use it to implement custom functions or override existing functions in the theme. 
-  */ 
+	
+  function sarvaka_bhutan_preprocess_region(&$vars) {
+		switch ($vars['region']) {
+			case 'header':
+				//print implode('<br/>', array_keys($vars));
+				//print var_export($vars['theme_hook_suggestions']);
+				$vars['shanti_site'] = theme_get_setting('shanti_site');
+  			$vars['home_url'] = url(variable_get('site_frontpage', 'node'));
+				$vars['site_name'] =  variable_get('site_name');
+				$vars['logo'] =  theme_get_setting('logo');
+				$vars['site_slogan'] =  variable_get('site_slogan');
+				break;
+				
+			case 'banner':
+				$vars['theme_hook_suggestions'][] = 'region__banner_front';
+				break;
+				
+			default:
+				//print "<p><b>REGION: </b> {$vars['region']}</p>";
+		}
+  }
+
+  

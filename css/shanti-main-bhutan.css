@@ -12,7 +12,7 @@
 /* Front Page Only Styles */
 body{ border-bottom:200px solid #555;}
 	  
-.banner-grid {overflow:hidden;position:relative;padding-top:5px;margin-top:50px;}
+.banner-grid {overflow:hidden;position:relative;padding-top:5px; margin-top:5px;}
 .banner-grid .grid-row{ overflow:hidden;width:100%;white-space:nowrap;text-align:center;height:80px;}
 .banner-grid a{ background:#aaa;margin:0 1px 3px;padding:0;width:105px;height:75px;display:inline-block;}
 .banner-grid .grid-row a:first-child{ margin-left:-45px;}
