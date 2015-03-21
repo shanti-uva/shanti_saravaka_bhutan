@@ -78,7 +78,7 @@ select:focus option:checked:hover { background: #008a96;color: #fff;}
 /*----------------------------------*/
 /*----- BEGIN header section -------*/
 /*----------------------------------*/
-.header-banner{ position:relative; z-index:30000; overflow:visible; -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1110); margin-top:0 !important; box-shadow: 0 3px 10px rgb(0, 0, 0); box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1110); border-collapse:separate;}
+.header-banner{ position:relative; z-index:500; overflow:visible; -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1110); margin-top:0 !important; box-shadow: 0 3px 10px rgb(0, 0, 0); box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1110); border-collapse:separate;}
 .navbar.navbar-default{ padding:0; margin:0; background:#fff;border:none; overflow:visible;}
 .navbar.navbar-default .navbar-collapse,
 .navbar.navbar-default.navbar-static-top{ border-bottom: none;}
@@ -86,6 +86,8 @@ select:focus option:checked:hover { background: #008a96;color: #fff;}
 .navbar-header a.navbar-brand{float:none;border:0;display:inline-block;padding:0;margin:0;color:#333;font-weight:normal;text-shadow:0 1px 1px #f0f0f0;}
 .navbar-header a.navbar-brand:hover,
 .navbar-header a.navbar-brand:focus{ color:#222;}
+.navbar-header .site-logo {max-height: 48px; margin: 7px 0px 0px; }
+.navbar-header .site-title {display: none;}
 .navbar-header .shanti{ display:none;}
 .navbar-header a span{ font-size:0.75em;line-height:1em;height:1em;padding: 0;position:relative; top:-7px;white-space:nowrap;}
 /*--- menu toggle buttons ---*/

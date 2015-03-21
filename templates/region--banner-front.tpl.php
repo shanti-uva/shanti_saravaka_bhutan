@@ -1,6 +1,16 @@
 <!-- Banner Region or Banner Grid Region (Front page) -->
 <section class="banner-grid">
-	<?php if ($content) { print $content; } ?>
+ <div class="grid-textbox-wrapper">	
+    <div class="container-fixed">            
+	      <div class="grid-textbox">
+		      <div>
+						<?php 
+							if (!empty($variables['grid_inset_text'])) { print $variables['grid_inset_text']; } 
+						?>
+		      </div>
+	      </div>
+    </div>
+  </div> 
 	<div class="grid-row">
 	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image1a.jpg" ></a>
 	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image2a.jpg" ></a>
@@ -114,7 +124,7 @@
 	  <div class="container-fixed">      
 	  <div class="row"> 
 	       <div class="intro-summary col-xs-12 col-sm-8">
-		       <p>Bhutan is a unique country both culturally and environmentally. Perched high in the Himalayas, it is the world’s last remaining Buddhist Kingdom. It has developed the philosophy of Gross National Happiness; not just based on gross domestic product.</p>
+		       <p><?php print $variables['overview_text']; ?></p>
 	       </div> 
 	       <div class="intro-search col-xs-12 col-sm-4">
 	         <p>Search stuff...</p>
