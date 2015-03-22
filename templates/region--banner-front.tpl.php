@@ -127,7 +127,7 @@
 		       <p><?php print $variables['overview_text']; ?></p>
 	       </div> 
 	       <div class="intro-search col-xs-12 col-sm-4">
-	         <p>Search stuff...</p>
+	         <?php print render($search_block); ?>
 	      </div>
 	  </div> 
 	  </div>      

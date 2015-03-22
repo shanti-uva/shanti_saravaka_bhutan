@@ -15,7 +15,11 @@
  
  function sarvaka_bhutan_preprocess_page(&$vars) {
  	$theme_path = drupal_get_path('theme', 'sarvaka_bhutan');
- 	if($vars['is_front']) { drupal_add_css("{$theme_path}/css/bhutan-front.css"); }
+	// Front Page processing
+ 	if($vars['is_front']) {
+		drupal_add_css("{$theme_path}/css/bhutan-front.css"); 
+		$vars['submitted'] = '';
+	}
 }
 
 /**
@@ -35,9 +39,9 @@ function sarvaka_bhutan_preprocess_region(&$vars) {
 		// Banner Region
 		case 'banner':
 			if(!empty($vars['is_front'])) {
-								
+				$vars['theme_hook_suggestions'][] = 'region__banner_front';
+				// Use try block incase front page is not a node
 				try {
-					$vars['theme_hook_suggestions'][] = 'region__banner_front';
 					$fpath = variable_get('site_frontpage', 'node');
 					$fppts = explode('/', $fpath);
 					if(is_array($fppts) && count($fppts) > 1) {
@@ -54,11 +58,39 @@ function sarvaka_bhutan_preprocess_region(&$vars) {
 				} catch (Exception $e) {
 					watchdog('bhutan theme', 'Exception caught in preprocess banner region: ' . $e->getMessage());
 				}
+				
+				// Add Search block to variables for rendering on Front Page
+				if(module_exists('search')) {
+					$vars['search_block'] = module_invoke('search', 'block_view', 'form');
+				}
 			}
 			break;
 		
 		// Default only for debugging
 		default:
 			//print "<p><b>REGION: </b> {$vars['region']}</p>";
+	}
+}
+
+
+/**
+ * Implements hook_preprocess_entity: for preprocessing field collections
+ */
+
+function sarvaka_bhutan_preprocess_entity(&$vars) {
+	if($vars['entity_type'] == 'field_collection_item' && $vars['elements']['#bundle'] == 'field_collection_teaser') {
+		//dpm($vars, 'vars in pp entity');
+		// TODO: Adjust this hack to a more sustainable version for I18N
+		$vars['title'] = $vars['field_title'][0]['safe_value'];
+		$vars['description'] = $vars['field_description'][0]['safe_value'];
+		$vars['icon_class'] = $vars['field_icon_class'][0]['safe_value'];
+		$vars['title'] = $vars['field_title'][0]['safe_value'];
+		$vars['is_odd'] = (($vars['id'] % 2) == 0) ? FALSE : TRUE;
+		$fl = '<ul>';
+		foreach($vars['field_featured_resources'] as $n => $item) {
+			$fl .= "<li><a href=\"{$item['url']}\">{$item['title']}</a></li>";
+		}
+		$fl .= '</ul>';
+		$vars['featured_links'] = $fl;
 	}
 }

@@ -7,157 +7,19 @@
   <?php if(module_exists('explore_menu')) { print render($variables['explore_menu']); } ?>
   
 	<?php print render($page['banner']); ?>
-	    
-  
+	
+	<!-- Action Links: Edit, View, etc. -->
+	<?php if ($action_links): ?><ul class="action-links"><?php print render($action_links); ?></ul><?php endif; ?>
+
+  <!-- Message Area -->
+  <?php if (!empty($messages)) { print "<div class=\"messages\">$messages</div>"; } ?>
+
   <div class="home-teaser-wrapper">  
 	  <main class="container-fixed">
-	    
-	    <div class="teaser row">   
-				<div class="tzr-summary col-xs-12 col-sm-9">   
-					   <span class="icon shanticon-audio-video"></span>               
-             <p><span class="teaser-title">Audio-Video</span>Bhutan is a unique country both culturally and environmentally. Perched high in the Himalayas, it is the world’s last remaining Buddhist Kingdom. It has developed the philosophy of Gross National Happiness; where development is measured using a holistic approach of well-being, not just based on gross domestic product.</p> 
-	      </div>  
-	      
-	      <div class="tzr-related col-xs-12 col-sm-3">                  
-             <div>
-	             <h5>Featured Resources</h5>
-	             <ul>
-		             <li><a href="http://dukar.net/dev/pub/bhutan-mockup/mockup-bhutan.html#">This is useful link</a></li>
-		             <li><a href="http://dukar.net/dev/pub/bhutan-mockup/mockup-bhutan.html#">This is useful link</a></li>
-		             <li><a href="http://dukar.net/dev/pub/bhutan-mockup/mockup-bhutan.html#">This is useful link</a></li>
-		             <li><a href="http://dukar.net/dev/pub/bhutan-mockup/mockup-bhutan.html#">This is useful link</a></li>
-	             </ul>
-             </div>
-	      </div> 
-	    </div>
-
-
-
-	    <div class="teaser row odd">   	      
-	      <div class="tzr-related col-xs-12 col-sm-3">                  
-             <div>
-	             <h5>Featured Resources</h5>
-	             <ul>
-		             <li><a href="http://dukar.net/dev/pub/bhutan-mockup/mockup-bhutan.html#">This is useful link</a></li>
-		             <li><a href="http://dukar.net/dev/pub/bhutan-mockup/mockup-bhutan.html#">This is useful link</a></li>
-		             <li><a href="http://dukar.net/dev/pub/bhutan-mockup/mockup-bhutan.html#">This is useful link</a></li>
-		             <li><a href="http://dukar.net/dev/pub/bhutan-mockup/mockup-bhutan.html#">This is useful link</a></li>
-	             </ul>
-             </div>
-	      </div>  
-
-				<div class="tzr-summary col-xs-12 col-sm-9">   
-					   <span class="icon shanticon-photos"></span>               
-             <p><span class="teaser-title">Imagery</span>Bhutan is a unique country both culturally and environmentally. Perched high in the Himalayas, it is the world’s last remaining Buddhist Kingdom. It has developed the philosophy of Gross National Happiness; where development is measured using a holistic approach of well-being, not just based on gross domestic product.</p> 
-	      </div> 
-	    </div>
-	    
-	    
-	    
-	    
-	    <div class="teaser row">   
-				<div class="tzr-summary col-xs-12 col-sm-9">   
-					   <span class="icon shanticon-texts"></span>               
-             <p><span class="teaser-title">Texts</span>Bhutan is a unique country both culturally and environmentally. Perched high in the Himalayas, it is the world’s last remaining Buddhist Kingdom. It has developed the philosophy of Gross National Happiness; where development is measured using a holistic approach of well-being, not just based on gross domestic product.</p> 
-	      </div>  
-	      
-	      <div class="tzr-related col-xs-12 col-sm-3">                  
-             <div>
-	             <h5>Featured Resources</h5>
-	             <ul>
-		             <li><a href="http://dukar.net/dev/pub/bhutan-mockup/mockup-bhutan.html#">This is useful link</a></li>
-		             <li><a href="http://dukar.net/dev/pub/bhutan-mockup/mockup-bhutan.html#">This is useful link</a></li>
-		             <li><a href="http://dukar.net/dev/pub/bhutan-mockup/mockup-bhutan.html#">This is useful link</a></li>
-		             <li><a href="http://dukar.net/dev/pub/bhutan-mockup/mockup-bhutan.html#">This is useful link</a></li>
-	             </ul>
-             </div>
-	      </div>
-	    </div>
-	    
-	    
-	    
-	    
-	    <div class="teaser row odd">   
-	      <div class="tzr-related col-xs-12 col-sm-3">                  
-             <div>
-	             <h5>Featured Resources</h5>
-	             <ul>
-		             <li><a href="http://dukar.net/dev/pub/bhutan-mockup/mockup-bhutan.html#">This is useful link</a></li>
-		             <li><a href="http://dukar.net/dev/pub/bhutan-mockup/mockup-bhutan.html#">This is useful link</a></li>
-		             <li><a href="http://dukar.net/dev/pub/bhutan-mockup/mockup-bhutan.html#">This is useful link</a></li>
-		             <li><a href="http://dukar.net/dev/pub/bhutan-mockup/mockup-bhutan.html#">This is useful link</a></li>
-	             </ul>
-             </div>
-	      </div>  
-
-				<div class="tzr-summary col-xs-12 col-sm-9">   
-					   <span class="icon shanticon-places"></span>               
-             <p><span class="teaser-title">Places</span>Bhutan is a unique country both culturally and environmentally. Perched high in the Himalayas, it is the world’s last remaining Buddhist Kingdom. It has developed the philosophy of Gross National Happiness; where development is measured using a holistic approach of well-being, not just based on gross domestic product.</p> 
-	      </div>  
-	    </div>
-	    
-	    
-	    
-	    
-	    <div class="teaser row">   
-				<div class="tzr-summary col-xs-12 col-sm-9">   
-					   <span class="icon shanticon-subjects"></span>               
-             <p><span class="teaser-title">Subjects</span>Bhutan is a unique country both culturally and environmentally. Perched high in the Himalayas, it is the world’s last remaining Buddhist Kingdom. It has developed the philosophy of Gross National Happiness; where development is measured using a holistic approach of well-being, not just based on gross domestic product.</p> 
-	      </div>  
-	      
-	      <div class="tzr-related col-xs-12 col-sm-3">                  
-             <div>
-	             <h5>Featured Resources</h5>
-	             <ul>
-		             <li><a href="http://dukar.net/dev/pub/bhutan-mockup/mockup-bhutan.html#">This is useful link</a></li>
-		             <li><a href="http://dukar.net/dev/pub/bhutan-mockup/mockup-bhutan.html#">This is useful link</a></li>
-		             <li><a href="http://dukar.net/dev/pub/bhutan-mockup/mockup-bhutan.html#">This is useful link</a></li>
-		             <li><a href="http://dukar.net/dev/pub/bhutan-mockup/mockup-bhutan.html#">This is useful link</a></li>
-	             </ul>
-             </div>
-	      </div> 
-	    </div>
-	    
-	    
-	    
-	    <div class="teaser-feature row">   
-				<div class="tzr-feature col-xs-12 col-sm-4">                  
-             <div>
-	             <h5>Featured Resources</h5>
-	             <ul>
-		             <li><a href="http://dukar.net/dev/pub/bhutan-mockup/mockup-bhutan.html#">This is useful link</a></li>
-		             <li><a href="http://dukar.net/dev/pub/bhutan-mockup/mockup-bhutan.html#">This is useful link</a></li>
-		             <li><a href="http://dukar.net/dev/pub/bhutan-mockup/mockup-bhutan.html#">This is useful link</a></li>
-		             <li><a href="http://dukar.net/dev/pub/bhutan-mockup/mockup-bhutan.html#">This is useful link</a></li>
-	             </ul>
-             </div>
-	      </div> 
-				<div class="tzr-feature col-xs-12 col-sm-4">                  
-             <div>
-	             <h5>Featured Resources</h5>
-	             <ul>
-		             <li><a href="http://dukar.net/dev/pub/bhutan-mockup/mockup-bhutan.html#">This is useful link</a></li>
-		             <li><a href="http://dukar.net/dev/pub/bhutan-mockup/mockup-bhutan.html#">This is useful link</a></li>
-		             <li><a href="http://dukar.net/dev/pub/bhutan-mockup/mockup-bhutan.html#">This is useful link</a></li>
-		             <li><a href="http://dukar.net/dev/pub/bhutan-mockup/mockup-bhutan.html#">This is useful link</a></li>
-	             </ul>
-             </div>
-	      </div> 
-				<div class="tzr-feature col-xs-12 col-sm-4">                  
-             <div>
-	             <h5>Featured Resources</h5>
-	             <ul>
-		             <li><a href="http://dukar.net/dev/pub/bhutan-mockup/mockup-bhutan.html#">This is useful link</a></li>
-		             <li><a href="http://dukar.net/dev/pub/bhutan-mockup/mockup-bhutan.html#">This is useful link</a></li>
-		             <li><a href="http://dukar.net/dev/pub/bhutan-mockup/mockup-bhutan.html#">This is useful link</a></li>
-		             <li><a href="http://dukar.net/dev/pub/bhutan-mockup/mockup-bhutan.html#">This is useful link</a></li>
-	             </ul>
-             </div>
-	      </div> 	      
-	    </div>	    	    	   
-	    	    	   
-	    	    	   
-	    	    	    	    
+	  		<!-- Render Content -->
+      	<?php 
+      		print render($page['content']); 
+      	?>
 	  </main>
   </div>
 
