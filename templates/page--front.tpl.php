@@ -3,6 +3,9 @@
 	
 	<?php print render($page['header']); ?>
 	
+  <!-- include shanti-explore-menu if it exists -->
+  <?php if(module_exists('explore_menu')) { print render($variables['explore_menu']); } ?>
+  
 	<?php print render($page['banner']); ?>
 	    
   
