@@ -14,7 +14,6 @@
  */  
  
  function sarvaka_bhutan_preprocess_page(&$vars) {
- 	dpm($vars, 'vars in preprocess page');
  	$theme_path = drupal_get_path('theme', 'sarvaka_bhutan');
  	if($vars['is_front']) { drupal_add_css("{$theme_path}/css/bhutan-front.css"); }
 }
