@@ -6,14 +6,14 @@
   <!-- include shanti-explore-menu if it exists -->
   <?php if(module_exists('explore_menu')) { print render($variables['explore_menu']); } ?>
   
-	<?php print render($page['banner']); ?>
-	
 	<!-- Action Links: Edit, View, etc. -->
 	<?php if ($action_links): ?><ul class="action-links"><?php print render($action_links); ?></ul><?php endif; ?>
 
   <!-- Message Area -->
   <?php if (!empty($messages)) { print "<div class=\"messages\">$messages</div>"; } ?>
 
+	<?php print render($page['banner']); ?>
+	
   <div class="home-teaser-wrapper">  
 	  <main class="container-fixed">
 	  		<!-- Render Content -->
