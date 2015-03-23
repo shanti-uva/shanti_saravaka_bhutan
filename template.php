@@ -65,7 +65,15 @@ function sarvaka_bhutan_preprocess_region(&$vars) {
 				}
 			}
 			break;
-		
+			
+		// Main Content Region
+		case 'content':
+				if(!empty($vars['is_front'])) {
+					//dpm($vars, 'front vars');
+					//$vars['content'] = '<div> I AM HERE</div>';
+				}
+				break;
+				
 		// Default only for debugging
 		default:
 			//print "<p><b>REGION: </b> {$vars['region']}</p>";
@@ -86,11 +94,27 @@ function sarvaka_bhutan_preprocess_entity(&$vars) {
 		$vars['icon_class'] = $vars['field_icon_class'][0]['safe_value'];
 		$vars['title'] = $vars['field_title'][0]['safe_value'];
 		$vars['is_odd'] = (($vars['id'] % 2) == 0) ? FALSE : TRUE;
+		$vars['tier'] = "tier{$vars['id']}";
 		$fl = '<ul>';
 		foreach($vars['field_featured_resources'] as $n => $item) {
 			$fl .= "<li><a href=\"{$item['url']}\">{$item['title']}</a></li>";
 		}
 		$fl .= '</ul>';
 		$vars['featured_links'] = $fl;
+	}
+}
+
+function sarvaka_bhutan_preprocess_block(&$vars) {
+	if($vars['is_front'] && $vars['block_html_id'] == 'block-system-main') {
+		$children = element_children($vars['elements']['nodes']);
+		$nid = array_shift($children);
+		$node = $vars['elements']['nodes'][$nid];
+		$children = element_children($node['field_collection_teaser']);
+		$html = '';
+		foreach($children as $k => $cid) {
+			render($node['field_collection_teaser'][$cid]);
+			$html .= $node['field_collection_teaser'][$cid]['entity']['#children'];
+		}
+		$vars['content'] = $html;
 	}
 }

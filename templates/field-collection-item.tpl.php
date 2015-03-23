@@ -28,10 +28,10 @@
  * @see template_process()
  */
 ?>
-<div class="teaser row<?php if($is_odd) {print ' odd';} ?>">   
+<div class="teaser tzr-<?php print strtolower($title); ?> row">   
 	
-	<?php if ($is_odd): ?>
-  	<div class="tzr-related col-xs-12 col-sm-3">                  
+	<?php if (!$is_odd): ?>
+  	<div class="tzr-related col-xs-12 col-sm-4">                  
 	     <div>
          <h4>Featured Resources</h4>
 			    <?php  print $featured_links; ?> 
@@ -39,7 +39,7 @@
   	</div> 
 	<?php endif; ?>
 	
-	<div class="tzr-summary col-xs-12 col-sm-9">   
+	<div class="tzr-summary col-xs-12 col-sm-8">   
 		   <span class="icon <?php print $icon_class; ?>"></span>       
        <p><span class="teaser-title"><?php print $title; ?></span>
 					<?php
@@ -48,8 +48,8 @@
 			</p> 
   </div>  
   
-  <?php if (!$is_odd): ?>
-  	<div class="tzr-related col-xs-12 col-sm-3">                  
+  <?php if ($is_odd): ?>
+  	<div class="tzr-related col-xs-12 col-sm-4">                  
 	     <div>
          <h4>Featured Resources</h4>
 			    <?php  print $featured_links; ?> 
