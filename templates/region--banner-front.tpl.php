@@ -11,115 +11,115 @@
 	      </div>
     </div>
   </div> 
-	<div class="grid-row">
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image1a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image2a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image3a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image4a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image5a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image6a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image7a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image8a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image9a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image10a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image11a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image12a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image13a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image14a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image15a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image16a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image17a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image18a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image19a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image20a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image1a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image2a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image3a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image4a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image5a.jpg" ></a>
-	</div>
-	<div class="grid-row">
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image1a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image2a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image3a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image4a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image5a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image6a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image7a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image8a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image9a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image10a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image11a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image12a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image13a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image14a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image15a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image16a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image17a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image18a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image19a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image20a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image1a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image2a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image3a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image4a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image5a.jpg" ></a>
-	</div>
-	<div class="grid-row">
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image1a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image2a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image3a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image4a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image5a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image6a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image7a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image8a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image9a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image10a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image11a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image12a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image13a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image14a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image15a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image16a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image17a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image18a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image19a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image20a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image1a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image2a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image3a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image4a.jpg" ></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image5a.jpg" ></a>
-	</div>
-	<div class="grid-row greyscale">
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image1a.jpg" width="130" height"90"></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image2a.jpg" width="130" height"90"></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image3a.jpg" width="130" height"90"></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image4a.jpg" width="130" height"90"></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image5a.jpg" width="130" height"90"></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image6a.jpg" width="130" height"90"></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image7a.jpg" width="130" height"90"></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image8a.jpg" width="130" height"90"></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image9a.jpg" width="130" height"90"></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image10a.jpg" width="130" height"90"></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image11a.jpg" width="130" height"90"></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image12a.jpg" width="130" height"90"></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image13a.jpg" width="130" height"90"></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image14a.jpg" width="130" height"90"></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image15a.jpg" width="130" height"90"></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image16a.jpg" width="130" height"90"></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image17a.jpg" width="130" height"90"></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image18a.jpg" width="130" height"90"></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image19a.jpg" width="130" height"90"></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image20a.jpg" width="130" height"90"></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image1a.jpg" width="130" height"90"></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image2a.jpg" width="130" height"90"></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image3a.jpg" width="130" height"90"></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image4a.jpg" width="130" height"90"></a>
-	  <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/image5a.jpg" width="130" height"90"></a>
-	</div> 
-	
+  <div class="grid-row tier1">
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb1.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb2.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb33.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb4.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb5.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb6.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb7.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb8.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb9.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb10.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb33.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb12.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb13.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb14.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb15.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb16.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb17.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb18.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb19.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb20.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb21.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb22.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb23.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb24.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb25.jpg" width="108" height="75"></a>
+  </div>
+  <div class="grid-row tier2">
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb42.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb36.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb37.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb38.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb39.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb40.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb3.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb1.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb25.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb24.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb23.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb22.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb21.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb20.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb19.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb18.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb17.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb16.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb15.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb14.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb13.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb12.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb11.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb10.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb9.jpg" width="108" height="75"></a>
+  </div>
+  <div class="grid-row tier3">
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb24.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb23.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb22.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb21.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb20.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb19.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb18.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb42.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb41.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb40.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb39.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb11.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb37.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb36.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb35.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb34.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb33.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb32.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb31.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb30.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb29.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb28.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb27.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb26.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb25.jpg" width="108" height="75"></a>
+  </div>
+  <div class="grid-row tier4 grayscale">
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb22.jpg" width="130" height"90" class="on"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb23.jpg" width="130" height"90" class="on"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb24.jpg" width="130" height"90" class="on"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb25.jpg" width="130" height"90" class="on"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb26.jpg" width="130" height"90" class="on"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb27.jpg" width="130" height"90" class="on"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb28.jpg" width="130" height"90" class="on"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb29.jpg" width="130" height"90" class="on"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb30.jpg" width="130" height"90" class="on"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb31.jpg" width="130" height"90" class="on"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb32.jpg" width="130" height"90" class="on"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb33.jpg" width="130" height"90" class="on"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb34.jpg" width="130" height"90" class="on"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb35.jpg" width="130" height"90" class="on"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb36.jpg" width="130" height"90" class="on"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb37.jpg" width="130" height"90" class="on"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb38.jpg" width="130" height"90" class="on"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb39.jpg" width="130" height"90" class="on"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb40.jpg" width="130" height"90" class="on"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb41.jpg" width="130" height"90" class="on"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb42.jpg" width="130" height"90" class="on"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb1.jpg" width="130" height"90" class="on"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb2.jpg" width="130" height"90" class="on"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb3.jpg" width="130" height"90" class="on"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb4.jpg" width="130" height"90" class="on"></a>
+  </div> 
+
 	<div class="home-intro">	
 	  <div class="container-fixed">      
 	  <div class="row"> 

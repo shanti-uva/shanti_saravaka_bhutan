@@ -27,9 +27,12 @@ regions[admin_footer]   = Admin Footer
 ;; Stylesheets
 ;;;;;;;;;;;;;;;;;;;;;
 
+stylesheets[all][] =  css/normalize.css
 stylesheets[all][] =  css/bhutan-main.css
 stylesheets[all][] =  css/bhutan-search.css
-
+stylesheets[all][] =  fonts/shanticon/css/style.css
+stylesheets[all][] =  css/grayscale.css
+  
 ;;;;;;;;;;;;;;;;;;;;;;
 ;;; Scripts
 ;;;;;;;;;;;;;;;;;;;;;;
