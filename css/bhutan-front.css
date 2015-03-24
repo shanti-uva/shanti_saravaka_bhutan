@@ -56,7 +56,7 @@
 .home-teaser-wrapper .container-fixed{ padding-bottom:5rem;}	   
 .teaser{ margin:0; height:200px;}
 .teaser>div{ padding:3rem;}
-.teaser:nth-of-type(even){ background:white; padding-right:2rem; padding-left:9px; border:1px solid #e0e0e0; border-radius:0 16px 16px 0;  -webkit-box-shadow: 0 3px 8px rgba(50,50,50,0.05000);box-shadow: 0 3px 8px rgba(50,50,50,0.05000);}
+.teaser:nth-of-type(even){ background:white; padding-right:2rem; padding-left:9px; border:1px solid #e0e0e0; border-radius:0 12px 12px 0;  -webkit-box-shadow: 0 3px 8px rgba(50,50,50,0.05000);box-shadow: 0 3px 8px rgba(50,50,50,0.05000);}
 .teaser:nth-of-type(even) > div{ border-left:9px solid #f0f0f0;}
 .tzr-summary p{ margin-left:130px;padding-top:20px;font-size:1.38em;color:#666;font-style:italic;font-family: palatino,'Palatino Linotype',georgia,serif;}
 .teaser:nth-of-type(even) .tzr-summary p{ margin-left:100px;}
