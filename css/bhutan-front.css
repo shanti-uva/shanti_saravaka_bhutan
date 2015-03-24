@@ -56,7 +56,7 @@
 .home-teaser-wrapper .container-fixed{ padding-bottom:5rem;}	   
 .teaser{ margin:0; height:200px;padding:3rem;}
 .teaser:nth-of-type(even){ background:white; padding-right:2rem; border:1px solid #e0e0e0; -webkit-box-shadow: 0 3px 8px rgba(50,50,50,0.05000);box-shadow: 0 3px 8px rgba(50,50,50,0.05000);}
-.tzr-summary p{ margin-left:130px;padding-top:20px;font-size:1.32em;color:#666;font-style:italic;font-family: palatino,'Palatino Linotype',georgia,serif;}
+.tzr-summary p{ margin-left:130px;padding-top:20px;font-size:1.38em;color:#666;font-style:italic;font-family: palatino,'Palatino Linotype',georgia,serif;}
 .teaser:nth-of-type(even) .tzr-summary p{ margin-left:120px;}
 .tzr-summary .teaser-title{ font-size:1.62em;color:#333;font-style:normal;line-height:1em; margin-right:0.5rem;font-family:'museo-sans-300',arial,'Helvetica Neue',helvetica,sans-serif;}	   
 .teaser .tzr-summary p a{ color:#444;display:inline-block;}
@@ -110,17 +110,8 @@
 .tzr-feature ul li a:hover::before{ background: rgba(69, 79, 164, 0.8000);}
 .tzr-feature ul li a:active::before{ background:transparent;}
 .tzr-feature > div{ background:#fff;border-radius:3px;height:250px;padding:2rem 2rem 2rem 3rem;margin:0 0 5rem; border:1px solid #e0e0e0; -webkit-box-shadow: 0 3px 8px rgba(50,50,50,0.05000);box-shadow: 0 3px 8px rgba(50,50,50,0.05000);}	   
- 
-.footer {clear: both;}
 
-
-
-
-
-
-
-
-
+/* search styles */
 .front.bhutan .input-section{ border:none;}
 .front.bhutan .input-section .input-group .btn.btn-default{ font-size:1.6rem;}
 .front.bhutan .glyphicon{ position: relative; top: 0.25rem;}
