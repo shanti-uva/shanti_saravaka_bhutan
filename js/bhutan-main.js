@@ -44,7 +44,7 @@ $(document).imagesLoaded( function() {
 	 //Grayscale images only on browsers IE10+ since they removed support for CSS grayscale filter
 	 if(brwoser == "ie10" || brwoser == "ie11" ){
 		$('body').addClass('ie11'); // Fixes marbin issue on IE10 and IE11 after canvas function on images
-		$('.grayscale img.on').each(function(){
+		$('.grayscale img').each(function(){
 			var el = $(this);
 			el.css({"position":"absolute"}).wrap("<div class='img_wrapper' style='display: inline-block'>").clone().addClass('img_grayscale ieImage').css({"position":"absolute","z-index":"5","opacity":"0"}).insertBefore(el).queue(function(){
 				var el = $(this);
@@ -55,7 +55,7 @@ $(document).imagesLoaded( function() {
 		});
 		
 		// Quick animation on IE10+ 
-		$('.grayscale img.on').hover(
+		$('.grayscale img').hover(
 			function () {
 				$(this).parent().find('img:first').stop().animate({opacity:1}, 200);
 			}, 
@@ -91,7 +91,7 @@ $(document).imagesLoaded( function() {
 	// If the browser does not support CSS filters filters, we are applying grayscale.js function
 	// This part of Grayscale images applies on Opera, Firefox and Safari browsers
 	if (!Modernizr.cssfilters) {
-		var $images = $(".grayscale img.on"), imageCount = $images.length, counter = 0;
+		var $images = $(".grayscale img"), imageCount = $images.length, counter = 0;
 
 		// One instead of on, because it need only fire once per image
 		$images.one("load",function(){
@@ -99,8 +99,8 @@ $(document).imagesLoaded( function() {
 			counter++;
 			if (counter == imageCount) {
 				// do stuff when all have loaded
-				grayscale($('.grayscale img.on'));
-				$(".grayscale img.on").hover(
+				grayscale($('.grayscale img'));
+				$(".grayscale img").hover(
 					function () {
 						grayscale.reset($(this));
 					}, 

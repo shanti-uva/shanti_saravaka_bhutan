@@ -14,7 +14,7 @@
 
 	<?php print render($page['banner']); ?>
 	
-  <div class="home-teaser-wrapper">  
+  <div class="home-teaser-wrapper clearfix">  
 	  <main class="container-fixed">
 	  		<!-- Render Content -->
       	<?php 
