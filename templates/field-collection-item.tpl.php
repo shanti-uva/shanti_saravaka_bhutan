@@ -40,12 +40,12 @@
 	<?php endif; ?>
 	
 	<div class="tzr-summary col-xs-12 col-sm-8">   
-		   <span class="icon <?php print $icon_class; ?>"></span>       
-       <p><span class="teaser-title"><?php print $title; ?></span>
+		   <a href="<?php print $url; ?>"><span class="icon <?php print $icon_class; ?>"></span></a>       
+       <p><a href="<?php print $url; ?>"><span class="teaser-title"><?php print $title; ?></span>
 					<?php
 			      print $description; 
 			    ?>
-			</p> 
+			</a></p> 
   </div>  
   
   <?php if ($is_odd): ?>

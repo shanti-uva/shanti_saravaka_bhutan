@@ -93,6 +93,7 @@ function sarvaka_bhutan_preprocess_entity(&$vars) {
 		$vars['description'] = $vars['field_description'][0]['safe_value'];
 		$vars['icon_class'] = $vars['field_icon_class'][0]['safe_value'];
 		$vars['title'] = $vars['field_title'][0]['safe_value'];
+		$vars['url'] = $vars['field_url'][0]['safe_value'];
 		$vars['is_odd'] = (($vars['id'] % 2) == 0) ? FALSE : TRUE;
 		$vars['tier'] = "tier{$vars['id']}";
 		$fl = '<ul>';
@@ -105,6 +106,7 @@ function sarvaka_bhutan_preprocess_entity(&$vars) {
 }
 
 function sarvaka_bhutan_preprocess_block(&$vars) {
+	// Replace the system content block for front page with just field collection content
 	if($vars['is_front'] && $vars['block_html_id'] == 'block-system-main') {
 		$children = element_children($vars['elements']['nodes']);
 		$nid = array_shift($children);
