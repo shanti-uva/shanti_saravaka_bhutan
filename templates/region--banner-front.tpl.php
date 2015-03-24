@@ -1,7 +1,7 @@
 <!-- Banner Region or Banner Grid Region (Front page) -->
 <section class="banner-grid">
  <div class="grid-textbox-wrapper">	
-    <div class="container">            
+    <div class="container-fixed">            
 	      <div class="grid-textbox">
 		      <div>
 						<?php 
@@ -121,7 +121,7 @@
   </div> 
 
 	<div class="home-intro">	
-	  <div class="container">      
+	  <div class="container-fixed">      
 	  <div class="row"> 
 	       <div class="intro-summary col-xs-12 col-sm-8">
 		       <p><?php print $variables['overview_text']; ?></p>
