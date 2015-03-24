@@ -29,7 +29,7 @@
  */
 ?>
 <div class="teaser tzr-<?php print strtolower($title); ?> row">   
- <div>
+ <div class="clearfix">
 	<?php if (!$is_odd): ?>
   	<div class="tzr-related col-xs-12 col-sm-4">                  
 	     <div>
