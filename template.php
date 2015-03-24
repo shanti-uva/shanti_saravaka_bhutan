@@ -10,10 +10,25 @@
  */
 
 /**
+ * Implements hook_preprocess_html
+ */  
+function sarvaka_bhutan_preprocess_html(&$vars) {
+	// Adjust banner color based on path (i.e. resource type)
+	$path = current_path();
+	if(strpos($path, '/audio-video/')) {
+		$vars['classes_array'][] = 'audio-video';
+	} elseif (strpos($path, '/texts/')) {
+		$vars['classes_array'][] = 'texts';
+	} elseif (strpos($path, '/photos/')) {
+		$vars['classes_array'][] = 'images';
+	} 
+}
+ 
+/**
  * Implements hook_preprocess_page
  */  
  
- function sarvaka_bhutan_preprocess_page(&$vars) {
+function sarvaka_bhutan_preprocess_page(&$vars) {
  	$theme_path = drupal_get_path('theme', 'sarvaka_bhutan');
 	// Front Page processing
  	if($vars['is_front']) {
