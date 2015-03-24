@@ -1,7 +1,7 @@
 <!-- Banner Region or Banner Grid Region (Front page) -->
 <section class="banner-grid">
  <div class="grid-textbox-wrapper">	
-    <div class="container-fixed">            
+    <div class="container">            
 	      <div class="grid-textbox">
 		      <div>
 						<?php 
