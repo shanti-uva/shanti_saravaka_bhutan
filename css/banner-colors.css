@@ -106,3 +106,42 @@
 .page-subjects .view-section .nav-tabs>li.active>a:hover, 
 .page-subjects .view-section .nav-tabs>li.active>a:focus{ border-top-color: #dc3c47; border-top-color: rgba(220, 60, 71, 0.83);}
 /*-------- End of Subjects colors ----------------*/
+
+/* Audio-Video Colors */
+/* BEGIN custom theme colors */
+.audio-video .titlearea,
+.audio-video .carousel-control,
+.audio-video .breadcrumb .icon,
+.audio-video .nav-justified>li.active a,
+.audio-video .nav-justified>li.active a:hover,
+.audio-video .nav-justified>li.active a:active{ background-color:#32ccca !important;}
+.audio-video .nav-justified>li.active::before{ color:#32ccca !important;}
+/* darker shades below are used to better define details */
+.audio-video .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a .check-mark,
+.audio-video .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a:active .check-mark,
+.audio-video .main-content .selectpicker .caret::before,
+.audio-video .input-section .input-group .btn.btn-default:hover,
+.audio-video .input-section .input-group .btn.btn-default:active,
+.audio-video .view-section .nav-tabs>li.active>a, 
+.audio-video .view-section .nav-tabs>li.active>a:hover, 
+.audio-video .view-section .nav-tabs>li.active>a:active,
+.audio-video .view-section .fancytree-container .glyphicon,
+.audio-video .view-section .fancytree-container .fancytree-node:hover > .glyphicon,
+.audio-video .view-section .fancytree-container .fancytree-node:active > .glyphicon,
+.audio-video .view-section .fancytree-node.fancytree-active > .glyphicon,
+.audio-video .view-section .fancytree-node.fancytree-selected > .glyphicon{ color:rgb(40, 161, 160) !important;  /* color: rgba(32, 132, 131, 0.86);*/ }
+.audio-video .view-section .nav-tabs>li.active>a, 
+.audio-video .view-section .nav-tabs>li.active>a:hover, 
+.audio-video .view-section .nav-tabs>li.active>a:active{ border-top-color: rgb(40, 161, 160) !important;}
+/*--- END Audio Video colors ---*/
+
+/*--- Text Colors -----*/
+/* custom theme colors */
+.texts .titlearea { background: #764B8D !important; } 
+.texts .basebg { background-color: #764B8D !important; } 
+.texts .basecolor { color: #764B8D !important; }   
+.texts ul.ss-full-tabs>li.active>a:after { border-color: #764B8D; border-top-color: #764B8D !important; } 
+.texts .breadwrap ol li .icon{ background:#764B8D !important; }
+.texts .ss-full-tabs.nav-tabs>li.active,
+.texts .ss-full-tabs.nav-tabs>li.active:hover{ background:#764B8D !important; }
+.texts .shanticon-twitter,.shanticon-facebook,.shanticon-email,.shanticon-google{ color:#764B8D !important; }
