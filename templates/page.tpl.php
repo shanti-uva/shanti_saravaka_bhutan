@@ -11,7 +11,6 @@
       <article class="main-content" role="main">
       	
         <!-- Banner Region -->
-        <!-- Banner Region commented out on not-front pages.
         <div class="row">
 
           <header class="col-xs-12 titlearea banner<?php print $variables['banner_class']; ?>">
