@@ -1,5 +1,6 @@
 
-.container{ max-width:960px;margin:0 auto;}
+.banner-grid .container,
+.home-teaser-wrapper.container{ max-width:960px;margin:0 auto;}
 
 .banner-grid { overflow:hidden;position:relative;-webkit-box-shadow: 0px 4px 10px -1px rgba(80,80,80,0.1500);box-shadow: 0px 4px 10px -1px rgba(80,80,80,0.1500);}
 .banner-grid .grid-row{ background:#aaa; overflow:hidden;width:100%;white-space:nowrap;text-align:center;height:81px;padding:2px 0;}
