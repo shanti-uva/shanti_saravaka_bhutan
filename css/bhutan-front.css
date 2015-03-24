@@ -121,12 +121,12 @@
 
 
 
-.input-section{ border:none;}
-.input-section .input-group .btn.btn-default{ font-size:1.6rem;}
-.glyphicon{ position: relative; top: 0.25rem;}
-.input-section .search-group{ height:auto;}
-.input-section .form-item{ margin:0;}
-.input-section .input-group input.form-control{ margin:0;}
-.input-section .input-group .input-group-btn{ position:relative;top:0;}
-.input-section .input-group{ padding:0;}
+.front.bhutan .input-section{ border:none;}
+.front.bhutan .input-section .input-group .btn.btn-default{ font-size:1.6rem;}
+.front.bhutan .glyphicon{ position: relative; top: 0.25rem;}
+.front.bhutan .input-section .search-group{ height:auto;}
+.front.bhutan .input-section .form-item{ margin:0;}
+.front.bhutan .input-section .input-group input.form-control{ margin:0;}
+.front.bhutan .input-section .input-group .input-group-btn{ position:relative;top:0;}
+.front.bhutan .input-section .input-group{ padding:0;}
 
