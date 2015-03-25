@@ -45,7 +45,7 @@
 .grid-textbox p{ color:#444; padding-left:2px;font-family:arial, 'Helvetica Neue', helvetica, sans-serif;}
 
 .home-intro{ max-width:960px; margin:12px auto 20px;}
-.home-intro .row{ margin:0;background:#f0f0f0;padding:1.5rem 2.5rem 0.5rem;border-radius:3px;border:1px solid #e0e0e0;-webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.1000);box-shadow: 0 1px 4px rgba(0,0,0,0.1000);}
+.home-intro .row{ margin:0 -15px;background:#f0f0f0;padding:1.5rem 2.5rem 0.5rem;border-radius:3px;border:1px solid #e0e0e0;-webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.1000);box-shadow: 0 1px 4px rgba(0,0,0,0.1000);}
 .intro-summary p{ font-size:1em;color:#505050;font-style:italic;}
 .intro-summary a{ border-bottom:1px solid transparent;-webkit-transition: border 300ms ease 0s; transition: border 300ms ease 0s;}
 .intro-summary a:hover{ color: rgb(207, 47, 30); border-bottom-color: rgba(90, 101, 209, .3000);}
@@ -54,10 +54,12 @@
 
 .home-teaser-wrapper{ background:#f0f0f0; padding-bottom:5rem;}
 .home-teaser-wrapper .container-fixed{ padding-bottom:5rem;}	   
-.teaser{ margin:0; height:200px;padding:3rem;}
-.teaser:nth-of-type(even){ background:white; padding-right:2rem; border:1px solid #e0e0e0; -webkit-box-shadow: 0 3px 8px rgba(50,50,50,0.05000);box-shadow: 0 3px 8px rgba(50,50,50,0.05000);}
-.tzr-summary p{ margin-left:130px;padding-top:20px;font-size:1.32em;color:#666;font-style:italic;font-family: palatino,'Palatino Linotype',georgia,serif;}
-.teaser:nth-of-type(even) .tzr-summary p{ margin-left:120px;}
+.teaser{ margin:0; height:200px;}
+.teaser>div{ padding:3rem;}
+.teaser:nth-of-type(even){ background:white; padding-right:2rem; padding-left:8px; border:1px solid #e0e0e0; border-radius:0 12px 12px 0;  -webkit-box-shadow: 0 3px 8px rgba(50,50,50,0.05000);box-shadow: 0 3px 8px rgba(50,50,50,0.05000);}
+.teaser:nth-of-type(even) > div{ border-left:7px solid #f0f0f0;}
+.tzr-summary p{ margin-left:130px;padding-top:20px;font-size:1.38em;color:#666;font-style:italic;font-family: palatino,'Palatino Linotype',georgia,serif;}
+.teaser:nth-of-type(even) .tzr-summary p{ margin-left:100px;}
 .tzr-summary .teaser-title{ font-size:1.62em;color:#333;font-style:normal;line-height:1em; margin-right:0.5rem;font-family:'museo-sans-300',arial,'Helvetica Neue',helvetica,sans-serif;}	   
 .teaser .tzr-summary p a{ color:#444;display:inline-block;}
 .teaser .tzr-summary p a:hover .teaser-title,
@@ -73,7 +75,7 @@
 .tzr-summary .shanticon-subjects{ color:#da3e4a; opacity:0.9;}	   
 .tzr-summary .icon:hover{ opacity:0.6;}
 .tzr-summary .icon:active{ opacity:1;}
-.teaser:nth-of-type(even) .tzr-summary .icon{ position:absolute;left:2rem;}
+.teaser:nth-of-type(even) .tzr-summary .icon{ position:absolute;left:0.5rem;}
 
 .tzr-related{ height:140px; background:#fff;padding:1rem 1.5rem 1.5rem 2rem; border-radius:0 16px 16px 0; border-left:8px solid #aaa; border-right:18px double #f0f0f0;}
 .teaser:nth-of-type(even) .tzr-related{ background:#f0f0f0; border-right:16px double #fff;}	
@@ -110,23 +112,14 @@
 .tzr-feature ul li a:hover::before{ background: rgba(69, 79, 164, 0.8000);}
 .tzr-feature ul li a:active::before{ background:transparent;}
 .tzr-feature > div{ background:#fff;border-radius:3px;height:250px;padding:2rem 2rem 2rem 3rem;margin:0 0 5rem; border:1px solid #e0e0e0; -webkit-box-shadow: 0 3px 8px rgba(50,50,50,0.05000);box-shadow: 0 3px 8px rgba(50,50,50,0.05000);}	   
- 
-.footer {clear: both;}
 
-
-
-
-
-
-
-
-
-.input-section{ border:none;}
-.input-section .input-group .btn.btn-default{ font-size:1.6rem;}
-.glyphicon{ position: relative; top: 0.25rem;}
-.input-section .search-group{ height:auto;}
-.input-section .form-item{ margin:0;}
-.input-section .input-group input.form-control{ margin:0;}
-.input-section .input-group .input-group-btn{ position:relative;top:0;}
-.input-section .input-group{ padding:0;}
+/* search styles */
+.front.bhutan .input-section{ border:none;}
+.front.bhutan .input-section .input-group .btn.btn-default{ font-size:1.6rem;}
+.front.bhutan .glyphicon{ position: relative; top: 0.25rem;}
+.front.bhutan .input-section .search-group{ height:auto;}
+.front.bhutan .input-section .form-item{ margin:0;}
+.front.bhutan .input-section .input-group input.form-control{ margin:0;}
+.front.bhutan .input-section .input-group .input-group-btn{ position:absolute;top: 0.1rem;right:0.1rem;}
+.front.bhutan .input-section .input-group{ padding:0;}
 
