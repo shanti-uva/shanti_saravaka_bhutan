@@ -22,6 +22,7 @@ function sarvaka_bhutan_preprocess_html(&$vars) {
 	} elseif (strpos($path, '/photos/')) {
 		$vars['classes_array'][] = 'images';
 	} 
+	_sarvaka_bhutan_add_head_tags(); // Adds favicon link tags and meta tags for various devices
 }
  
 /**
@@ -133,5 +134,219 @@ function sarvaka_bhutan_preprocess_block(&$vars) {
 			$html .= $node['field_collection_teaser'][$cid]['entity']['#children'];
 		}
 		$vars['content'] = $html;
+	}
+}
+
+/**
+ * Function for creating meta data tags in head
+ */
+
+/**
+ * Function to add meta tags for favicons and the like
+ */
+function _sarvaka_bhutan_add_head_tags() {
+	$htags = array(
+		'link1' => array(
+			'#type' => 'html_tag',
+			'#tag' => 'link',
+			'#attributes' => array(
+				'rel' => 'apple-touch-icon',
+				'sizes' => '57x57',
+				'href' => 'favicons/apple-touch-icon-57x57.png',
+			),
+			'#weight' => -999,
+		),
+		
+		'link2' => array(
+			'#type' => 'html_tag',
+			'#tag' => 'link',
+			'#attributes' => array(
+				'rel' => 'apple-touch-icon',
+				'sizes' => '60x60',
+				'href' => 'favicons/apple-touch-icon-60x60.png',
+			),
+			'#weight' => -998,
+		),
+		
+		'link3' => array(
+			'#type' => 'html_tag',
+			'#tag' => 'link',
+			'#attributes' => array(
+				'rel' => 'apple-touch-icon',
+				'sizes' => '72x72',
+				'href' => 'favicons/apple-touch-icon-72x72.png',
+			),
+			'#weight' => -997,
+		),
+		
+		'link4' => array(
+			'#type' => 'html_tag',
+			'#tag' => 'link',
+			'#attributes' => array(
+				'rel' => 'apple-touch-icon',
+				'sizes' => '76x76',
+				'href' => 'favicons/apple-touch-icon-76x76.png',
+			),
+			'#weight' => -996,
+		),
+		
+		'link5' => array(
+			'#type' => 'html_tag',
+			'#tag' => 'link',
+			'#attributes' => array(
+				'rel' => 'apple-touch-icon',
+				'sizes' => '114x114',
+				'href' => 'favicons/apple-touch-icon-114x114.png',
+			),
+			'#weight' => -995,
+		),
+		
+		'link6' => array(
+			'#type' => 'html_tag',
+			'#tag' => 'link',
+			'#attributes' => array(
+				'rel' => 'apple-touch-icon',
+				'sizes' => '120x120',
+				'href' => 'favicons/apple-touch-icon-120x120.png',
+			),
+			'#weight' => -994,
+		),
+		
+		'link7' => array(
+			'#type' => 'html_tag',
+			'#tag' => 'link',
+			'#attributes' => array(
+				'rel' => 'apple-touch-icon',
+				'sizes' => '144x144',
+				'href' => 'favicons/apple-touch-icon-144x144.png',
+			),
+			'#weight' => -993,
+		),
+		
+		'link8' => array(
+			'#type' => 'html_tag',
+			'#tag' => 'link',
+			'#attributes' => array(
+				'rel' => 'apple-touch-icon',
+				'sizes' => '152x152',
+				'href' => 'favicons/apple-touch-icon-152x152.png',
+			),
+			'#weight' => -992,
+		),
+		
+		'link9' => array(
+			'#type' => 'html_tag',
+			'#tag' => 'link',
+			'#attributes' => array(
+				'rel' => 'apple-touch-icon',
+				'sizes' => '180x180',
+				'href' => 'favicons/apple-touch-icon-180x180.png',
+			),
+			'#weight' => -991,
+		),
+		
+		'link10' => array(
+			'#type' => 'html_tag',
+			'#tag' => 'link',
+			'#attributes' => array(
+				'rel' => 'icon',
+				'type' => 'image/png',
+				'href' => 'favicons/favicon-32x32.png',
+				'sizes' => '32x32',
+			),
+			'#weight' => -990,
+		),
+		
+		'link11' => array(
+			'#type' => 'html_tag',
+			'#tag' => 'link',
+			'#attributes' => array(
+				'rel' => 'icon',
+				'type' => 'image/png',
+				'href' => 'favicons/favicon-194x194.png',
+				'sizes' => '194x194',
+			),
+			'#weight' => -989,
+		),
+		
+		'link12' => array(
+			'#type' => 'html_tag',
+			'#tag' => 'link',
+			'#attributes' => array(
+				'rel' => 'icon',
+				'type' => 'image/png',
+				'href' => 'favicons/favicon-96x96.png',
+				'sizes' => '96x96',
+			),
+			'#weight' => -988,
+		),
+		
+		'link13' => array(
+			'#type' => 'html_tag',
+			'#tag' => 'link',
+			'#attributes' => array(
+				'rel' => 'icon',
+				'type' => 'image/png',
+				'href' => 'favicons/android-chrome-192x192.png',
+				'sizes' => '192x192',
+			),
+			'#weight' => -987,
+		),
+		
+		'link14' => array(
+			'#type' => 'html_tag',
+			'#tag' => 'link',
+			'#attributes' => array(
+				'rel' => 'icon',
+				'type' => 'image/png',
+				'href' => 'favicons/favicon-16x16.png',
+				'sizes' => '16x16',
+			),
+			'#weight' => -986,
+		),
+		
+		'link15' => array(
+			'#type' => 'html_tag',
+			'#tag' => 'link',
+			'#attributes' => array(
+				'rel' => 'manifest',
+				'href' => 'favicons/manifest.json',
+			),
+			'#weight' => -985,
+		),
+		
+		'meta1' => array(
+			'#type' => 'html_tag',
+			'#tag' => 'meta',
+			'#attributes' => array(
+				'name' => 'msapplication-TileColor',
+				'content' => '#da532c',
+			),
+			'#weight' => -984,
+		),
+		
+		'meta2' => array(
+			'#type' => 'html_tag',
+			'#tag' => 'meta',
+			'#attributes' => array(
+				'name' => 'msapplication-TileImage',
+				'content' => 'favicons/mstile-144x144.png',
+			),
+			'#weight' => -983,
+		),
+		
+		'meta3' => array(
+			'#type' => 'html_tag',
+			'#tag' => 'meta',
+			'#attributes' => array(
+				'name' => 'theme-color',
+				'content' => '#ffffff',
+			),
+			'#weight' => -982,
+		),
+	);
+	
+	foreach($htags as $key => $details) {
+		drupal_add_html_head($details, $key);
 	}
 }
