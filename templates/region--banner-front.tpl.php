@@ -28,8 +28,8 @@
     <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb14.jpg" width="108" height="75"></a>
     <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb15.jpg" width="108" height="75"></a>
     <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb16.jpg" width="108" height="75"></a>
-    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb17.jpg" width="108" height="75"></a>
-    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb18.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb41.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb25.jpg" width="108" height="75"></a>
     <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb19.jpg" width="108" height="75"></a>
     <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb20.jpg" width="108" height="75"></a>
     <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb21.jpg" width="108" height="75"></a>
