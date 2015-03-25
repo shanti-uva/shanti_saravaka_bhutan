@@ -23,7 +23,7 @@
     <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb9.jpg" width="108" height="75"></a>
     <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb10.jpg" width="108" height="75"></a>
     <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb33.jpg" width="108" height="75"></a>
-    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb12.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb23.jpg" width="108" height="75"></a>
     <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb13.jpg" width="108" height="75"></a>
     <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb14.jpg" width="108" height="75"></a>
     <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb15.jpg" width="108" height="75"></a>
@@ -67,7 +67,7 @@
   </div>
   <div class="grid-row tier3">
     <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb24.jpg" width="108" height="75"></a>
-    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb23.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb12.jpg" width="108" height="75"></a>
     <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb22.jpg" width="108" height="75"></a>
     <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb21.jpg" width="108" height="75"></a>
     <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumb20.jpg" width="108" height="75"></a>
