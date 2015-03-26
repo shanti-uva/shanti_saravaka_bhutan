@@ -21,6 +21,8 @@ function sarvaka_bhutan_preprocess_html(&$vars) {
 		$vars['classes_array'][] = 'texts';
 	} elseif (strpos($path, '/photos/')) {
 		$vars['classes_array'][] = 'images';
+	} elseif (strpos($path, '/images/')) {
+		$vars['classes_array'][] = 'images';
 	} 
 	_sarvaka_bhutan_add_head_tags(); // Adds favicon link tags and meta tags for various devices
 }

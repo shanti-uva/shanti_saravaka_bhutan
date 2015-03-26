@@ -145,3 +145,32 @@
 .texts .ss-full-tabs.nav-tabs>li.active,
 .texts .ss-full-tabs.nav-tabs>li.active:hover{ background:#764B8D !important; }
 .texts .shanticon-twitter,.shanticon-facebook,.shanticon-email,.shanticon-google{ color:#764B8D !important; }
+
+
+/* Images Colors */
+/* BEGIN custom theme colors */
+.images .titlearea,
+.images .carousel-control,
+.images .breadcrumb .icon,
+.images .nav-justified>li.active a,
+.images .nav-justified>li.active a:hover,
+.images .nav-justified>li.active a:active{ background-color:#fd8c48 !important;}
+.images .nav-justified>li.active::before{ color:#fd8c48 !important;}
+/* darker shades below are used to better define details */
+.images .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a .check-mark,
+.images .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a:active .check-mark,
+.images .main-content .selectpicker .caret::before,
+.images .input-section .input-group .btn.btn-default:hover,
+.images .input-section .input-group .btn.btn-default:active,
+.images .view-section .nav-tabs>li.active>a, 
+.images .view-section .nav-tabs>li.active>a:hover, 
+.images .view-section .nav-tabs>li.active>a:active,
+.images .view-section .fancytree-container .glyphicon,
+.images .view-section .fancytree-container .fancytree-node:hover > .glyphicon,
+.images .view-section .fancytree-container .fancytree-node:active > .glyphicon,
+.images .view-section .fancytree-node.fancytree-active > .glyphicon,
+.images .view-section .fancytree-node.fancytree-selected > .glyphicon{ color:rgb(253,140,72,0.83) !important;  /* color: rgba(32, 132, 131, 0.86);*/ }
+.images .view-section .nav-tabs>li.active>a, 
+.images .view-section .nav-tabs>li.active>a:hover, 
+.images .view-section .nav-tabs>li.active>a:active{ border-top-color: rgb(253,140,72,0.83) !important;}
+/*--- END Audio Video colors ---*/
