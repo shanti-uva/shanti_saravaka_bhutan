@@ -40,6 +40,7 @@ stylesheets[all][] =  css/banner-colors.css
 scripts[] = js/modernizr.custom.js
 scripts[] = js/grayscale.js
 scripts[] = js/imagesloaded.pkgd.min.js
+scripts[] = js/jquery.columnizer.min.js
 scripts[] = js/bhutan-main.js
 scripts[] = js/bhutan-search.js
 
