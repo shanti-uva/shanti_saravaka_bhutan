@@ -26,8 +26,7 @@
 #tab-main .each-photo a.thumbnail:hover,
 #tab-main .each-text a.thumbnail:hover{ border-color: #5293ae; border-color:rgba(82, 147, 174, 0.83);}
 .content-resources .nav-pills li.active{ border-left:10px solid #5293ae; border-left:10px solid rgba(82, 147, 174, 0.83);}
-
-
+/* darker shades below */
 .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a .check-mark,
 .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a:focus .check-mark,
 .input-section .toggle-link,
@@ -45,7 +44,7 @@
 .view-section .nav-tabs>li.active>a:focus{ border-top-color: #5293ae;border-top-color: rgba(82, 147, 174, 0.83);}
 /*------- End of Default Color -------------*/
 
-/* Colors for Places */
+/* Colors Places */
 .page-places .titlearea,
 .page-places .carousel-control,
 .page-places .breadcrumb .icon,
@@ -113,13 +112,13 @@
 .page-subjects .view-section .nav-tabs>li.active>a, 
 .page-subjects .view-section .nav-tabs>li.active>a:hover, 
 .page-subjects .view-section .nav-tabs>li.active>a:focus{ color: #dc3c47;color:rgba(220, 60, 71, 0.83);}
+.page-subjects .content-resources .nav-pills li.active{ border-color: #dc3c47; border-color: rgba(220, 60, 71, 0.83);}
 .page-subjects .view-section .nav-tabs>li.active>a, 
 .page-subjects .view-section .nav-tabs>li.active>a:hover, 
 .page-subjects .view-section .nav-tabs>li.active>a:focus{ border-top-color: #dc3c47; border-top-color: rgba(220, 60, 71, 0.83);}
 /*-------- End of Subjects colors ----------------*/
 
 /* Audio-Video Colors */
-/* BEGIN custom theme colors */
 .audio-video .titlearea,
 .audio-video .carousel-control,
 .audio-video .breadcrumb .icon,
@@ -143,6 +142,7 @@
 .audio-video .view-section .fancytree-container .fancytree-node:active > .glyphicon,
 .audio-video .view-section .fancytree-node.fancytree-active > .glyphicon,
 .audio-video .view-section .fancytree-node.fancytree-selected > .glyphicon{ color:rgb(40, 161, 160) !important;  /* color: rgba(32, 132, 131, 0.86);*/ }
+.audio-video .content-resources .nav-pills li.active{ border-color: rgb(40, 161, 160) !important;}
 .audio-video .view-section .nav-tabs>li.active>a, 
 .audio-video .view-section .nav-tabs>li.active>a:hover, 
 .audio-video .view-section .nav-tabs>li.active>a:active{ border-top-color: rgb(40, 161, 160) !important;}
@@ -153,7 +153,8 @@
 .texts .titlearea { background: #764B8D !important; } 
 .texts .basebg { background-color: #764B8D !important; } 
 .texts .basecolor { color: #764B8D !important; }   
-.texts ul.ss-full-tabs>li.active>a:after { border-color: #764B8D; border-top-color: #764B8D !important; } 
+.texts ul.ss-full-tabs>li.active>a:after,
+.texts .content-resources .nav-pills li.active{ border-color: #764B8D; border-top-color: #764B8D !important; } 
 .texts .breadwrap ol li .icon{ background:#764B8D !important; }
 .texts .ss-full-tabs.nav-tabs>li.active,
 .texts .ss-full-tabs.nav-tabs>li.active:hover{ background:#764B8D !important; }
@@ -186,6 +187,7 @@
 .images .view-section .fancytree-container .fancytree-node:active > .glyphicon,
 .images .view-section .fancytree-node.fancytree-active > .glyphicon,
 .images .view-section .fancytree-node.fancytree-selected > .glyphicon{ color:#989430 !important;  /* color: rgba(32, 132, 131, 0.86);*/ }
+.images .content-resources .nav-pills li.active{ border-color: #989430;}
 .images .view-section .nav-tabs>li.active>a, 
 .images .view-section .nav-tabs>li.active>a:hover, 
 .images .view-section .nav-tabs>li.active>a:active{ border-top-color: #989430 !important;}
