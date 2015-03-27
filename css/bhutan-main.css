@@ -2043,16 +2043,13 @@ html body.admin-menu{ margin-top:5.2rem !important;} /* accounts for height of a
 
 
 
-.header-banner img.site-logo{
-   width:500px;
-   height:50px;
-}
+.header-banner img.site-logo{ width:500px;height:50px; position:relative;top:0.7rem;}
+
+.navbar-header a span{ position:relative;left:-1.2rem;color:#404040;font-size: 0.88em;}
+
+.site-title{ top:0.4rem; position:relative;}
 
 
-.navbar-header a span{ position: relative;left:-1.2rem;}
-
-span.site-title{ top:0.4rem;position:relative;}
-.navbar-header a span{ color:#404040;font-size: 0.88em;}
 
 
 /**** kmaps side-col style TEMP ****/
