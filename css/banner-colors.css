@@ -22,6 +22,7 @@
 .carousel-feature-slides li div a:hover,
 .carousel-feature-slides li div a:focus,
 .carousel-feature-slides li.active div a,
+.page-places .content-resources .nav-pills li.active,
 #tab-main .each-photo a.thumbnail:hover,
 #tab-main .each-text a.thumbnail:hover{ border-color: #5293ae; border-color:rgba(82, 147, 174, 0.83);}
 .content-resources .nav-pills li.active{ border-left:10px solid #5293ae; border-left:10px solid rgba(82, 147, 174, 0.83);}
@@ -62,8 +63,9 @@
 .page-places .carousel-feature-slides li div a:focus,
 .page-places .carousel-feature-slides li.active div a,
 .page-places #tab-main .each-photo a.thumbnail:hover,
-.page-places #tab-main .each-text a.thumbnail:hover{ border-color: #4CA6FB; border-color:rgba(63, 137, 206, 0.83);}
-.page-places .content-resources .nav-pills li.active{ border-left:10px solid #4CA6FB; border-left:10px solid rgba(63, 137, 206, 0.83);}
+.page-places #tab-main .each-text a.thumbnail:hover,
+.page-places .content-resources .nav-pills li.active{ border-color: #4CA6FB; border-color:rgba(63, 137, 206, 0.83);}
+/* .page-places .content-resources .nav-pills li.active{ border-left:10px solid #4CA6FB; border-left:10px solid rgba(63, 137, 206, 0.83);} */
 
 /*------- End of Places Colors ---------------*/
 
@@ -88,8 +90,9 @@
 .page-subjects .carousel-feature-slides li div a:focus,
 .page-subjects .carousel-feature-slides li.active div a,
 .page-subjects #tab-main .each-photo a.thumbnail:hover,
-.page-subjects #tab-main .each-text a.thumbnail:hover{ border-color: #dc3c47; border-color:rgba(220, 60, 71, 0.83);}
-.page-subjects .content-resources .nav-pills li.active{border-left:10px solid #dc3c47;}
+.page-subjects #tab-main .each-text a.thumbnail:hover,
+.page-subjects .content-resources .nav-pills li.active{ border-color: #dc3c47; border-color:rgba(220, 60, 71, 0.83);}
+/* .page-subjects .content-resources .nav-pills li.active{border-left:10px solid #dc3c47;} */
 
 .page-subjects .input-section a.toggle-link,
 .page-subjects .input-section a.toggle-link:hover,
@@ -154,8 +157,8 @@
 .images .breadcrumb .icon,
 .images .nav-justified>li.active a,
 .images .nav-justified>li.active a:hover,
-.images .nav-justified>li.active a:active{ background-color:#fd8c48 !important;}
-.images .nav-justified>li.active::before{ color:#fd8c48 !important;}
+.images .nav-justified>li.active a:active{ background-color:#c7c14a !important; background-color: rgba(196, 190, 40, 0.9000) !important;}
+.images .nav-justified>li.active::before{ color:#c7c14a !important; color: rgba(196, 190, 40, 0.9000) !important;}
 /* darker shades below are used to better define details */
 .images .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a .check-mark,
 .images .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a:active .check-mark,
@@ -169,8 +172,8 @@
 .images .view-section .fancytree-container .fancytree-node:hover > .glyphicon,
 .images .view-section .fancytree-container .fancytree-node:active > .glyphicon,
 .images .view-section .fancytree-node.fancytree-active > .glyphicon,
-.images .view-section .fancytree-node.fancytree-selected > .glyphicon{ color:rgb(253,140,72,0.83) !important;  /* color: rgba(32, 132, 131, 0.86);*/ }
+.images .view-section .fancytree-node.fancytree-selected > .glyphicon{ color:#989430 !important;  /* color: rgba(32, 132, 131, 0.86);*/ }
 .images .view-section .nav-tabs>li.active>a, 
 .images .view-section .nav-tabs>li.active>a:hover, 
-.images .view-section .nav-tabs>li.active>a:active{ border-top-color: rgb(253,140,72,0.83) !important;}
+.images .view-section .nav-tabs>li.active>a:active{ border-top-color: #989430 !important;}
 /*--- END Audio Video colors ---*/
