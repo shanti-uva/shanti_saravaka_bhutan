@@ -2043,8 +2043,10 @@ html body.admin-menu{ margin-top:5.2rem !important;} /* accounts for height of a
 
 
 
-
-
+.header-banner img.site-logo{
+   width:500px;
+   height:50px;
+}
 
 
 
