@@ -74,9 +74,9 @@
 .teaser .tzr-summary p a:active{ color:#000;}
 
 .tzr-summary .icon{ color:#ddd; font-size:7rem; opacity:1; position:absolute;left:3.5rem;top:3.5rem;-webkit-text-shadow: 0 1px 3px rgba(50,50,50,0.2000);text-shadow: 0 3px 5px rgba(50,50,50,0.2000);}
-.tzr-summary .shanticon-audio-video{ color:#3cccca;/*position:absolute;left:2.5rem;*/}
+.tzr-summary .shanticon-audio-video{ color:#3cccca;left:4.3rem;}
 .tzr-summary .shanticon-texts{ color:#a37ffc;}
-.tzr-summary .shanticon-photos{ color:#c4be28;font-size:7.25rem;/*top:2.5rem;*/}
+.tzr-summary .shanticon-photos{ color:#c4be28;font-size:6.5rem;/*top:2.5rem;*/}
 .tzr-summary .shanticon-places{ color:#51a8f8; left:3rem; opacity:0.9;}
 .tzr-summary .shanticon-subjects{ color:#da3e4a; opacity:0.9;}	   
 .tzr-summary .icon:hover{ opacity:0.6;}
