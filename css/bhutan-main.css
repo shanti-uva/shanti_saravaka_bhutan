@@ -2049,7 +2049,7 @@ html body.admin-menu{ margin-top:5.2rem !important;} /* accounts for height of a
 }
 
 
-
+.navbar-header a span{ position: relative;left:-1.2rem;}
 
 
 
