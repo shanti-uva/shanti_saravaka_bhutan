@@ -215,8 +215,6 @@ li.pager-current.widget > form input.form-control { width: 100px;}
 .front .footer{ height:16rem; /* balance for homepage */}
 .page-title .icon::before{ position: relative; left: 0.05rem;}
 
-.content-resources{ margin-left:-1rem;}
-
 /* bhutan custom pager */
 #photo-pagination li{ padding:0; font-size:75%;}
 #photo-pagination li input.page-input{ position:relative; top:0.1rem;}
