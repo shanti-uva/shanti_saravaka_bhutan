@@ -1,8 +1,6 @@
+/* Edit only at bottom of page */
 
-
-
-/* don't edit below */
-/* BEGIN imgrate from kmaps custom */
+/* BEGIN imgrate from kmaps custom / remove all not needed above 'new bhutan' coment at bottom  */
 
 ul,
 ul ul,
@@ -232,6 +230,8 @@ body{ padding-right:0 !important;} /* testing modal effects */
 .shanti-thumbnail-image a .overlay::before{ font-size: 2.5em;line-height: 1.75em;}
 
 #search-flyout.extruder.right{ margin-top:7px;}/* temp until search styles migrate fmshanti */
+
+.loading-container { margin: 80px auto 0;}
 
 /**************/
 /* end bhutan */
