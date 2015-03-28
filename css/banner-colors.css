@@ -36,6 +36,8 @@
 .input-section .selectpicker .caret:before,
 .input-section .toggle-link.advanced-link,
 .input-section .input-group .btn.btn-default:hover,
+.input-section .feature-group .toggle-link.show-features .icon::before, 
+.input-section .toggle-link.show-advanced .icon::before,
 .view-section .nav-tabs>li.active>a, 
 .view-section .nav-tabs>li.active>a:hover, 
 .view-section .nav-tabs>li.active>a:focus{ color: #5293ae;color:rgba(82, 147, 174, 0.83);}
@@ -55,6 +57,8 @@
 .page-places .nav-justified>li.active:before,
 .page-places .menu-main-desk .levelHolderClass.rtl .backItemClass a,
 .page-places .menu-main-desk .levelHolderClass.rtl .backItemClass a:active,
+.page-places .input-section .feature-group .toggle-link.show-features .icon::before, 
+.page-places .input-section .toggle-link.show-advanced .icon::before,
 .page-places .input-section .toggle-link.advanced-link,
 .page-places .input-section .selectpicker .caret::before,
 .page-places .main-content .selectpicker .caret::before,
@@ -102,6 +106,8 @@
 .page-subjects .input-section a.toggle-link,
 .page-subjects .input-section a.toggle-link:hover,
 .page-subjects .input-section .toggle-link .icon::before,
+.page-subjects .input-section .feature-group .toggle-link.show-features .icon::before, 
+.page-subjects .input-section .toggle-link.show-advanced .icon::before,
 .page-subjects .input-section .toggle-link:hover .icon::before,
 .page-subjects .input-section .selectpicker .caret::before,
 .page-subjects .main-content .selectpicker .caret::before,
@@ -129,6 +135,8 @@
 /* darker shades below are used to better define details */
 .audio-video .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a .check-mark,
 .audio-video .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a:active .check-mark,
+.audio-video .feature-group .toggle-link.show-features .icon::before, 
+.audio-video .toggle-link.show-advanced .icon::before,
 .audio-video .input-section .selectpicker .caret::before,
 .audio-video .main-content .selectpicker .caret::before,
 .audio-video .input-section .input-group .btn.btn-default:hover,
@@ -159,6 +167,8 @@
 .texts .ss-full-tabs.nav-tabs>li.active,
 .texts .ss-full-tabs.nav-tabs>li.active:hover{ background:#764B8D !important; }
 .texts .shanticon-twitter,.shanticon-facebook,.shanticon-email,.shanticon-google,
+.texts .feature-group .toggle-link.show-features .icon::before, 
+.texts .toggle-link.show-advanced .icon::before,
 .texts .input-section .selectpicker .caret::before,
 .texts .main-content .selectpicker .caret::before{ color:#764B8D !important; }
 
@@ -178,6 +188,8 @@
 .images .main-content .selectpicker .caret::before,
 .images .input-section .input-group .btn.btn-default:hover,
 .images .input-section .input-group .btn.btn-default:active,
+.images .feature-group .toggle-link.show-features .icon::before, 
+.images .toggle-link.show-advanced .icon::before,
 .images .view-section .nav-tabs>li.active>a, 
 .images .view-section .nav-tabs>li.active>a:hover, 
 .images .view-section .nav-tabs>li.active>a:active,
