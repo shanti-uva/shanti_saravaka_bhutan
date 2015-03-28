@@ -11,9 +11,7 @@
 .nav-justified>li.active a,
 .nav-justified>li.active a:hover,
 .nav-justified>li.active a:focus{ background:#5293ae !important;}
-.nav-justified>li.active:before,
-.menu-main-desk .levelHolderClass.rtl .backItemClass a,
-.menu-main-desk .levelHolderClass.rtl .backItemClass a:active,
+.nav-justified>li.active:before,,
 .view-section ul.fancytree-container .glyphicon,
 .view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
 .view-section .fancytree-node.fancytree-active > .glyphicon,
@@ -55,8 +53,6 @@
 .page-places .nav-justified>li.active a:hover,
 .page-places .nav-justified>li.active a:focus{ background:#4CA6FB !important;}
 .page-places .nav-justified>li.active:before,
-.page-places .menu-main-desk .levelHolderClass.rtl .backItemClass a,
-.page-places .menu-main-desk .levelHolderClass.rtl .backItemClass a:active,
 .page-places .input-section .feature-group .toggle-link.show-features .icon::before, 
 .page-places .input-section .toggle-link.show-advanced .icon::before,
 .page-places .input-section .toggle-link.advanced-link,
@@ -87,8 +83,6 @@
 .page-subjects .nav-justified>li.active a:hover,
 .page-subjects .nav-justified>li.active a:focus{ background:#dc3c47 !important;}
 .page-subjects .nav-justified>li.active:before,
-.page-subjects .menu-main-desk .levelHolderClass.rtl .backItemClass a,
-.page-subjects .menu-main-desk .levelHolderClass.rtl .backItemClass a:active,
 .page-subjects .view-section ul.fancytree-container .glyphicon,
 .page-subjects .view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
 .page-subjects .view-section .fancytree-node.fancytree-active > .glyphicon,
