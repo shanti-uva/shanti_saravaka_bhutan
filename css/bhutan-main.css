@@ -210,6 +210,8 @@ li.pager-current.widget > form input.form-control { width: 100px;}
 /**************/
 body{ padding-right:0 !important;} /* testing modal effects */
 
+.front div.navbar.navbar-default{ box-shadow:none; width:960px; margin:0 auto;}
+
 .navbar-header a span{ position:relative;left:-1.2rem;color:#404040;font-size: 0.88em;}
 .navbar-header a .site-title{ position:relative;top:0.5rem;left: -1.8rem; display:none;}
 .site-logo{ width:500px;height:50px; position:relative;top:0.4rem;}
@@ -222,6 +224,7 @@ body{ padding-right:0 !important;} /* testing modal effects */
 
 .modal-content{ position:relative;top:-2rem;}
 
+.collections .close{ top: 1.2rem; right:1.5rem;}
 
 #search-flyout.extruder.right{ margin-top:7px;}/* temp until search styles migrate fmshanti */
 
