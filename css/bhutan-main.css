@@ -221,7 +221,7 @@ li.pager-current.widget > form input.form-control { width: 100px;}
 #photo-pagination li{ padding:0; font-size:75%;}
 #photo-pagination li input.page-input{ position:relative; top:0.1rem;}
 
-
+.modal-content{ position:relative;top:-2rem;}
 
 /**************/
 /* end bhutan */
