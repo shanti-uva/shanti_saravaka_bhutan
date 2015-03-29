@@ -81,10 +81,10 @@
 .tzr-summary .shanticon-subjects{ color:#da3e4a; opacity:0.9;}	   
 .tzr-summary .icon:hover{ opacity:0.6;}
 .tzr-summary .icon:active{ opacity:1;}
-.teaser:nth-of-type(even) .tzr-summary .icon{ position:absolute;left:0.5rem;}
+.home-teaser-wrapper .teaser:nth-of-type(even) .tzr-summary .icon{ position:absolute;left:0.5rem;}
 
 .tzr-related{ height:140px; background:#fff;padding:1rem 1.5rem 1.5rem 2rem; border-radius:0 16px 16px 0; border-left:8px solid #aaa; border-right:18px double #f0f0f0;}
-.teaser:nth-of-type(even) .tzr-related{ background:#f0f0f0; border-right:16px double #fff;}	
+.home-teaser-wrapper .teaser:nth-of-type(even) .tzr-related{ background:#f0f0f0; border-right:16px double #fff;}	
 .tzr-audio-video .tzr-related{ border-left-color: rgba(60, 204, 202, 0.9000);}
 .tzr-texts .tzr-related{ border-left-color: rgba(163, 127, 252, 0.9000);}
 .tzr-images .tzr-related{ border-left-color: rgba(196, 190, 40, 0.9000);}
@@ -129,3 +129,4 @@
 .front.bhutan .input-section .input-group .input-group-btn{ position:absolute;top: 0.1rem;right:0.1rem;}
 .front.bhutan .input-section .input-group{ padding:0;}
 
+.front .footer{ height:16rem; /* balance for homepage */}

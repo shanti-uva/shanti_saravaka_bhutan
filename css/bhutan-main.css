@@ -215,7 +215,6 @@ div.kaltura-embed{ border-top:1.5rem solid #000;}
 .navbar-header a span{ position:relative;left:-1.2rem;color:#404040;font-size: 0.88em;}
 .navbar-header a .site-title{ position:relative;top:0.5rem;left: -1.8rem; display:none;}
 .site-logo{ width:500px;height:45px; position:relative;top:0.7rem;}
-.front .footer{ height:16rem; /* balance for homepage */}
 .page-title .icon::before{ position: relative; left: 0.05rem;}
 
 /* bhutan custom pager */
