@@ -125,18 +125,16 @@ body.front .breadcrumb{ display:none !important;}
 /**************/
 /* new bhutan */
 /**************/
-body{ padding-right:0 !important;} /* testing modal effects */
-div.kaltura-embed{ border-top:1.5rem solid #000;}
-
+/* body{ padding-right:0 !important;}  testing modal effects */
 /* .front div.navbar.navbar-default{ box-shadow:none; width:999px; margin:0 auto;}
 .front span.menu-icon.menu-toggle{ border-right:1px solid #d0d0d0;}  */
 
+/*
 .navbar-header a span{ position:relative;left:-1.2rem;color:#404040;font-size: 0.88em;}
 .navbar-header a .site-title{ position:relative;top:0.5rem;left: -1.8rem; display:none;}
 .site-logo{ width:500px;height:45px; position:relative;top:0.7rem;}
 .page-title .icon::before{ position: relative; left: 0.05rem;}
 
-/* bhutan custom pager */
 #photo-pagination li{ padding:0; font-size:75%;}
 #photo-pagination li input.page-input{ position:relative; top:0.1rem;}
 
@@ -146,10 +144,7 @@ div.kaltura-embed{ border-top:1.5rem solid #000;}
 .collections .close{ top: 1.2rem; right:1.5rem;}
 
 .shanti-thumbnail-image a .overlay::before{ font-size: 2.5em;line-height: 1.75em;}
-
-#search-flyout.extruder.right{ margin-top:7px;}/* temp until search styles migrate fmshanti */
-
-.loading-container { margin: 80px auto 0;}
+*/
 
 /**************/
 /* end bhutan */
