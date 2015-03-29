@@ -209,8 +209,8 @@ li.pager-current.widget > form input.form-control { width: 100px;}
 body{ padding-right:0 !important;} /* testing modal effects */
 .videoHolder{ border-top:1rem solid #000;}
 
-.front div.navbar.navbar-default{ box-shadow:none; width:999px; margin:0 auto;}
-.front span.menu-icon.menu-toggle{ border-right:1px solid #d0d0d0;}
+/* .front div.navbar.navbar-default{ box-shadow:none; width:999px; margin:0 auto;}
+.front span.menu-icon.menu-toggle{ border-right:1px solid #d0d0d0;}  */
 
 .navbar-header a span{ position:relative;left:-1.2rem;color:#404040;font-size: 0.88em;}
 .navbar-header a .site-title{ position:relative;top:0.5rem;left: -1.8rem; display:none;}
