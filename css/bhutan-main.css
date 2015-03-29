@@ -125,6 +125,8 @@ body.front .breadcrumb{ display:none !important;}
 /**************/
 /* new bhutan */
 /**************/
+.site-logo{ width:500px;height:45px; position:relative;top:0.7rem;}
+
 /* body{ padding-right:0 !important;}  testing modal effects */
 /* .front div.navbar.navbar-default{ box-shadow:none; width:999px; margin:0 auto;}
 .front span.menu-icon.menu-toggle{ border-right:1px solid #d0d0d0;}  */
@@ -132,7 +134,6 @@ body.front .breadcrumb{ display:none !important;}
 /*
 .navbar-header a span{ position:relative;left:-1.2rem;color:#404040;font-size: 0.88em;}
 .navbar-header a .site-title{ position:relative;top:0.5rem;left: -1.8rem; display:none;}
-.site-logo{ width:500px;height:45px; position:relative;top:0.7rem;}
 .page-title .icon::before{ position: relative; left: 0.05rem;}
 
 #photo-pagination li{ padding:0; font-size:75%;}
