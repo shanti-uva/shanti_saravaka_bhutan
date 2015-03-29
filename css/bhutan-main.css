@@ -207,7 +207,7 @@ li.pager-current.widget > form input.form-control { width: 100px;}
 /* new bhutan */
 /**************/
 body{ padding-right:0 !important;} /* testing modal effects */
-div.kaltura-embed{ border-top:1rem solid #000 !important;}
+div.kaltura-embed{ border-top:1.5rem solid #000 !important;}
 
 /* .front div.navbar.navbar-default{ box-shadow:none; width:999px; margin:0 auto;}
 .front span.menu-icon.menu-toggle{ border-right:1px solid #d0d0d0;}  */
