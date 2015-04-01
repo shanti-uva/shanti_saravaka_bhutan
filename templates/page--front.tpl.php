@@ -38,7 +38,7 @@
 <!-- Footer -->
 <footer class="footer">
   <div>
-    <p>&copy; Copyright 2014</p>
+    <p>&copy; Copyright 2015</p>
     <?php print render($page['footer']); ?>
   </div>
 </footer>
