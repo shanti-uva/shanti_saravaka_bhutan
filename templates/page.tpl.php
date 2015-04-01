@@ -42,7 +42,7 @@
 
 
         <!-- Begin Content Row -->
-        <div class="row row-offcanvas row-offcanvas-left">
+        <div class="row row-offcanvas">
 
           <!-- Sidebar First Region -->
           <?php if ($page['sidebar_first']): ?>
