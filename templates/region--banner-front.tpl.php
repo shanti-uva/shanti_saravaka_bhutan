@@ -49,7 +49,7 @@
     <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumbs/thumb1.jpg" width="108" height="75"></a>
     <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumbs/thumb25.jpg" width="108" height="75"></a>
     <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumbs/thumb24.jpg" width="108" height="75"></a>
-    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumbs/thumb23.jpg" width="108" height="75"></a>
+    <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumbs/thumb32.jpg" width="108" height="75"></a>
     <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumbs/thumb22.jpg" width="108" height="75"></a>
     <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumbs/thumb21.jpg" width="108" height="75"></a>
     <a href="#"><img src="/sites/all/themes/sarvaka_bhutan/images/thumbs/thumb20.jpg" width="108" height="75"></a>
