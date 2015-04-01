@@ -4,7 +4,7 @@
 		attach: function (context, settings) {
 			if(context == window.document) { 
 
-				if($(".breadcrumb li:last:contains('Bhutan Library')").length ).openMbExtruder().once();
+				if($(".breadcrumb li:last:contains('Bhutan Library')").length ) { $("#search-flyout").openMbExtruder().once(); };
 				
       }
     }
