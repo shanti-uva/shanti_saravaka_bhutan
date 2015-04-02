@@ -25,6 +25,17 @@ function sarvaka_bhutan_preprocess_html(&$vars) {
 		$vars['classes_array'][] = 'images';
 	} 
 	_sarvaka_bhutan_add_head_tags(); // Adds favicon link tags and meta tags for various devices
+	
+	// Add flyout-open class to pages designated in theme-settings for sarvaka bhutan
+	$sfopen = theme_get_setting('sarvaka_bhutan_flyout_open');
+	$paths = explode("\n", $sfopen);
+	$mypath = current_path();
+	foreach($paths as $path) {
+		$path = trim($path);
+		if ($mypath == $path) {
+			$vars['classes_array'][] = 'flyout-open';
+		}
+	}
 }
  
 /**
