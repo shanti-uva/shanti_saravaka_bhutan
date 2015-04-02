@@ -3,7 +3,12 @@
 	Drupal.behaviors.bhutan_search_deafultOpen = {
 		attach: function (context, settings) {
 
-				if($(".flyout-open").length ) { $("#search-flyout").openMbExtruder().once(); }
+				if($(".flyout-open").length ) { 
+					$("#search-flyout").once('openflyout', function() {
+						$(this).openMbExtruder();
+						$('#kmaps-search .treeview a').click();
+					} );
+				}
 				
     }
   };	
