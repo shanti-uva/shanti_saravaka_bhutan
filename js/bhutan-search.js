@@ -11,8 +11,14 @@
 								var topPos = document.getElementById('ajax-id-8260').offsetTop;
 								document.getElementById('tree').scrollTop = topPos;
 								window.clearInterval(bto);
-							} 
-						}, 800);
+							}
+							if($('#ajax-id-427').length > 0) {
+								var topPos = document.getElementById('ajax-id-427').offsetTop;
+								document.getElementById('tree').scrollTop = topPos;
+								window.clearInterval(bto);
+							}  
+						}, 1000);
+						setTimeout(function() { window.clearInterval(bto); }, 15000);
 					});
 				}
 				

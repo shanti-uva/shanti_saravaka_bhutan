@@ -32,8 +32,11 @@ function sarvaka_bhutan_preprocess_html(&$vars) {
 	$mypath = current_path();
 	foreach($paths as $path) {
 		$path = trim($path);
-		if ($mypath == $path) {
+		$path = str_replace('/','\/', $path);
+		$path = '/^' . str_replace('*', '\d+', $path) . '$/'; // allow for wildcard * to represent ID #s.
+		if (preg_match($path, $mypath)) {
 			$vars['classes_array'][] = 'flyout-open';
+			break;
 		}
 	}
 }
