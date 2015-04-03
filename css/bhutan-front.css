@@ -91,7 +91,7 @@
 .tzr-places .tzr-related{ border-left-color: rgba(81, 168, 248, 0.9000);}
 .tzr-subjects .tzr-related{ border-left-color: rgba(218, 62, 74, 0.8000);}
 .tzr-related h4{ color:#555; font-size:1.5em; margin:0.1rem 0 0 0.4rem;padding:0;font-family:'museo-sans-500',arial,'Helvetica Neue',helvetica,sans-serif;}
-.tzr-related ul{ margin:0.5rem 0 0 0.5rem;padding:0;}
+.tzr-related ul{ margin:0.5rem 0 0 0.5rem;padding:0;overflow-x:auto;height:88px;}
 .tzr-related ul li{ list-style-type:none;white-space:nowrap;overflow:hidden;text-overflow: ellipsis;}
 .tzr-related ul a{ font-family:arial, 'Helvetica Neue', helvetica, sans-serif;}
 .tzr-related ul li a::before{ content:''; width:.9rem; height:.9rem; display:inline-block; border-radius:50%; border:2px solid #777; margin-right:.75rem;}
