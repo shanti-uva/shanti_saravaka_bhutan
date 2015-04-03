@@ -217,10 +217,6 @@ body.front .breadcrumb{ display:none !important;}
 /* end bhutan */
 /**************/
 
-/*** Deal with shadow div behind videos (ndg) ***/
-.av-main-wrapper .kaltura-embed {
-  width: 0px;
-}
 
 
 
