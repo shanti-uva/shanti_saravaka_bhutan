@@ -11,7 +11,11 @@
 
 
 
-
+@media screen and (max-width: 993px) {	/* this breakpoint from kmaps */
+	
+	.bhutan .view-resources.btn-default,
+	.bhutan .view-resources.btn-default{ display:inline-block !important;}
+}
 
 
 
