@@ -5,6 +5,8 @@
 .navbar-header{ padding-left:1rem}
 .site-logo{ width:500px;height:45px; position:relative;top:0.2rem;}
 .site-title{ display:none !important;}
+li > ul {  margin: 3px 0px 12px; }
+
 /*
 #search-flyout.extruder.right.isOpened .extruder-content{ border-right-width:13px;}
 */
