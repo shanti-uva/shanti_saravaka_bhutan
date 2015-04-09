@@ -9,6 +9,8 @@
 #search-flyout.extruder.right.isOpened .extruder-content{ border-right-width:13px;}
 */
 
+/** To prevent images from spilling out over popup **/
+.modal img { max-width: 550px; }
 
 
 @media screen and (max-width: 993px) {	/* this breakpoint from kmaps */
