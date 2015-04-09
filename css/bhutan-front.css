@@ -5,6 +5,7 @@
 .banner-grid .grid-row{ background:#aaa; overflow:hidden;width:100%;white-space:nowrap;text-align:center;height:81px;padding:2px 0;}
 .banner-grid .grid-row.tier1{ padding-top:4px;height:84px;}
 .banner-grid .grid-row.tier3{ padding-bottom:4px;height:84px;}
+.banner-grid a { cursor: default; } /** REMOVE when links in banner enabled **/
 .grid-row a{ margin:0 1px;padding:0; display:inline-block;border:1px solid #999;background:#555;}
 .grid-row a:hover,
 .grid-row a:active{ border-color:#f0f0f0; box-shadow:0 2px 5px rgba(0,0,0,0.5000);}	 

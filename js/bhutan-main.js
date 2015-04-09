@@ -4,6 +4,9 @@
 	Drupal.behaviors.bhutan_images_loaded = {
 		attach: function (context, settings) {
 			if(context == window.document) { 
+					// Disable grid links since just # for now (remove when links added)
+					$('.banner-grid a').click(function(e) { e.preventDefault(); }); 
+
 					$(document).imagesLoaded( function() {
 						
 						/**
