@@ -56,9 +56,6 @@
 	        
 	        <button type="button" class="btn btn-default visible-sm view-resources" data-toggle="offcanvas">
             <span class="icon"></span>
-            <span class="header"><em>R</em>esources</span>
-            <span class="badge">13489</span>
-            <!-- <span class="icon"></span> -->
           </button>
           
           <!-- Message Area -->
@@ -95,20 +92,18 @@
 
 
   <!-- LOAD menus -->
-  <section id="menu-main" class="menu-main-mobile { url:'<?php if(!empty($base_theme_path)) { print $base_theme_path; } else { print $theme_path; } ?>js/inc/menus/menu-ajax.php'} menu-accordion"> </section>
-  <section id="menu-collections" class="menu-collections-mobile { url:'<?php if(!empty($base_theme_path)) { print $base_theme_path; } else { print $theme_path; } ?>js/inc/menus/menu-ajax.php'} menu-accordion"> </section>
-
   <section id="menu" class="menu-main-desk" style="display:none;">
     <nav id="menu-drill" role="navigation">
      <?php print $variables['user_menu_links']; ?>
     </nav>
   </section><!-- END menu -->
+  
 </div> <!-- End wrap-all -->
 
 <!-- Footer -->
 <footer class="footer">
   <div>
-    <p>&copy; Copyright 2014</p>
+    <p>&copy; Copyright 2015</p>
     <?php print render($page['footer']); ?>
   </div>
 </footer>
