@@ -14,6 +14,40 @@ li > ul {  margin: 3px 0px 12px; }
 /** To prevent images from spilling out over popup **/
 .modal img { max-width: 550px; }
 
+/** Sponsor List Page **/
+.sponsor-list .views-row {
+  margin: 12px;
+}
+
+.sponsor-list .views-row .summary {
+  width: 80%;
+  float: left;
+}
+
+.sponsor-list .views-row .website {
+	display: block;
+	clear: both;
+}
+
+.sponsor-list .views-row .website .label {
+  font-size: 0.9em;
+  color: #555;
+  padding-left: 0px;
+}
+
+/** Footer **/
+.footer {
+	min-height: 160px;
+}
+
+.footer .general {
+	float: left;
+	margin-right: 30px;
+}
+	
+.footer .sponsors, .footer .sponsors .views-row {
+	float: left;
+}
 
 @media screen and (max-width: 993px) {	/* this breakpoint from kmaps */
 	

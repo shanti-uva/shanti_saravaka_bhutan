@@ -90,7 +90,6 @@
 
     </main> <!-- End Main Content -->
 
-
   <!-- LOAD menus -->
   <section id="menu" class="menu-main-desk" style="display:none;">
     <nav id="menu-drill" role="navigation">
@@ -100,13 +99,7 @@
   
 </div> <!-- End wrap-all -->
 
-<!-- Footer -->
-<footer class="footer">
-  <div>
-    <p>&copy; Copyright 2015</p>
-    <?php print render($page['footer']); ?>
-  </div>
-</footer>
+<?php print render($page['footer']); ?>
 
 <!-- Admin Footer -->
 <div id="admin-footer">

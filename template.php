@@ -52,6 +52,9 @@ function sarvaka_bhutan_preprocess_page(&$vars) {
 		drupal_add_css("{$theme_path}/css/bhutan-front.css"); 
 		$vars['submitted'] = '';
 	}
+	if(isset($vars['node']) && $vars['node']->type == 'sponsor') {
+		drupal_set_title(t('Bhutan Cultural Library Sponsor'));
+	}
 }
 
 /**
@@ -150,6 +153,20 @@ function sarvaka_bhutan_preprocess_block(&$vars) {
 			$html .= $node['field_collection_teaser'][$cid]['entity']['#children'];
 		}
 		$vars['content'] = $html;
+	}
+}
+
+function sarvaka_bhutan_preprocess_field(&$vars) {
+	$el = &$vars['element'];
+	if($el['#field_name'] == 'field_url') {
+		//dpm($vars, 'field');
+	}
+}
+
+function sarvaka_bhutan_menu_breadcrumb_alter(&$active_trail, $item) {
+	$node = menu_get_object();
+	if(is_object($node) && isset($node->type) && $node->type == 'sponsor') {
+		$active_trail[] = array('title' => t('Sponsors'), 'href' => url('sponsors'), 'localized_options' => array());
 	}
 }
 
