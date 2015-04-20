@@ -35,13 +35,7 @@
   </section><!-- END menu -->
 </div> <!-- End wrap-all -->
 
-<!-- Footer -->
-<footer class="footer">
-  <div>
-    <p>&copy; Copyright 2015</p>
-    <?php print render($page['footer']); ?>
-  </div>
-</footer>
+<?php print render($page['footer']); ?>
 
 <!-- Admin Footer -->
 <div id="admin-footer">
