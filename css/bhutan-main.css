@@ -16,12 +16,18 @@ li > ul {  margin: 3px 0px 12px; }
 
 /** Sponsor List Page **/
 .sponsor-list .views-row {
-  margin: 12px;
+  margin: 16px;
+  clear: both;
+}
+
+.sponsor-list .views-row h2 {
+	margin-bottom: 6px;
 }
 
 .sponsor-list .views-row .summary {
-  width: 80%;
   float: left;
+  width: 80%;
+  padding: 0px 16px 16px 0px;
 }
 
 .sponsor-list .views-row .website {
