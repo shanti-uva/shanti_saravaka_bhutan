@@ -24,6 +24,11 @@ li > ul {  margin: 3px 0px 12px; }
 	margin-bottom: 6px;
 }
 
+.sponsor-list .views-row .logo img {
+  background-color: #5293ae;
+  padding: 8px;
+}
+
 .sponsor-list .views-row .summary {
   float: left;
   width: 80%;
