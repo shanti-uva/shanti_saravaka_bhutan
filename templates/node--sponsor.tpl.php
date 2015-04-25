@@ -81,17 +81,7 @@
  */
 ?>
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
-<div class="logo">
-    	<?php 
-	    	if(empty($content['field_url'])) : 
-	    		print render($content['field_logo']); 
-	    	else: ?>
-		    	<a href="<?php print $content['field_url']['#items'][0]['safe_value'];?>" target="_blank">
-		    		<?php print render($content['field_logo']); ?>
-		    	</a>
-    	<?php endif; ?>
-    </div>
-    
+
   <?php if ($display_submitted): ?>
     <div class="submitted">
       <?php print $submitted; ?>
@@ -105,7 +95,16 @@
       hide($content['links']);
 			//dpm($content);
     ?>
-    
+    <div class="logo">
+    	<?php 
+	    	if(empty($content['field_url'])) : 
+	    		print render($content['field_logo']); 
+	    	else: ?>
+		    	<a href="<?php print $content['field_url']['#items'][0]['safe_value'];?>" target="_blank">
+		    		<?php print render($content['field_logo']); ?>
+		    	</a>
+    	<?php endif; ?>
+    </div>
     <div class="description">
     	<?php print render($content['body']); ?>
     </div>
