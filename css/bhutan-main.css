@@ -25,62 +25,26 @@ article ul ul ul ul { -webkit-margin-before: 0; margin-top:0;}
 /** Sponsor List Page **/
 .page-sponsors .view-resources.btn-default{ display:none;}
 
-.sponsor-list .views-row {
-  margin: 16px;
-  clear: both;
-}
-
-.sponsor-list .views-row h2 {
-	margin-bottom: 6px;
-}
-
-.sponsor-list .views-row .logo img {
-  background-color: #3b697d;
-  padding: 8px 18px;
-  border:3px double #eee;
-  float:right;
-  margin-left:15px;
-}
-
+.sponsor-list .views-row{ margin: 16px;clear: both;}
+.sponsor-list .views-row h2{margin-bottom: 6px;}
+.sponsor-list .views-row .logo img { background-color: #3b697d;padding: 8px 18px;border:3px double #eee;float:right;margin-left:15px;}
 .sponsor-list .views-row{ max-width:950px;}
 .sponsor-list .views-row-1 .logo img{ padding:15px 18px;}
 .sponsor-list .views-row-2 .logo img{ padding: 5px 18px;}
 .sponsor-list .views-row-3 .logo img{ padding:15px 18px;}
 
-
-
-.sponsor-list .views-row .summary {
-  padding: 0px 16px 16px 0px;
-}
-
-.sponsor-list .views-row .website {
-	display: block;
-	clear: both;
-}
-
-.sponsor-list .views-row .website .label {
-  font-size: 0.9em;
-  color: #555;
-  padding-left: 0px;
-}
-
-
+.sponsor-list .views-row .summary{ padding: 0px 16px 16px 0px;}
+.sponsor-list .views-row .website{ display: block;clear: both;}
+.sponsor-list .views-row .website .label{ font-size: 0.9em;color: #555;padding-left: 0px;}
 
 /** Footer **/
-.footer {
-	min-height: 120px;
-	padding: 10px 0 20px 15px;
-}
-
-.footer .general {
-	margin-right: 30px;
-}
+.footer{ min-height: 120px; padding: 10px 15px;}
 .footer,	
 .footer .sponsors, 
 .footer .general,
-.footer .sponsors .views-row {
-	float: left;
-}
+.footer .sponsors .views-row{ float: left;}
+
+.footer .sponsors{ width:100%;}
 
 /* footer logos */
 .footer .views-field img.img-responsive{ width:auto; max-width:auto; margin:1.6rem 3rem 0 0;}
