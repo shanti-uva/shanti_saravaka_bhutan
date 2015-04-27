@@ -19,12 +19,13 @@ article ul ul ul ul { -webkit-margin-before: 0; margin-top:0;}
 .page-sponsors .view-resources.btn-default{ display:none;}
 .sponsor-list .views-row{ margin:16px; clear:both;}
 .sponsor-list .views-row h2{ margin-bottom: 6px;}
-.sponsor-list .views-row img{ background-color:#325a6b;padding: 8px 18px;border:3px double #eee;float:right;margin-left:15px;}
+.sponsor-list .views-row img{ background-color:#325a6b;padding: 8px 18px;border:3px double #eee;float:right;margin-left:15px;-webkit-transition:border 300ms ease-out;-moz-transition:border 300ms ease-out;-o-transition:border 300ms ease-out;transition:border 300ms ease-out;}
 .sponsor-list .views-row{ max-width:950px;}
 .sponsor-list .views-row-1 img{ padding:18px;max-width: 190px;}
 .sponsor-list .views-row-2 img{ padding:5px 18px 8px;max-width:200px;}
 .sponsor-list .views-row-3 img{ padding:15px 8px; max-width: 300px;}
-.sponsor-list .views-row img:hover{ /* border-style:solid; */}
+.sponsor-list .views-row img:hover{ border:none;}
+.sponsor-list .views-row img:active{ border:3px double #eee;}
 
 .sponsor-list .views-row .summary{ padding: 0px 16px 16px 0px;}
 .sponsor-list .views-row .website{ display: block;clear: both;}
@@ -32,7 +33,7 @@ article ul ul ul ul { -webkit-margin-before: 0; margin-top:0;}
 
 
 /** FOOTER **/
-.footer{ min-height: 120px; background:#222;padding: 10px 15px 30px; position:relative;border-top:3px double #ccc;border-bottom:21px solid #000;box-shadow: inset 0 -5px 30px -4px rgba(0, 0, 0, 0.5);}
+.footer{ min-height: 120px; background:#222;padding: 10px 15px 30px; position:relative;border-top:3px double #ccc;border-bottom:22px solid #000;}
 .footer,	
 .footer .sponsors, 
 .footer .general,
