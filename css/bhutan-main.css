@@ -54,7 +54,7 @@ article ul ul ul ul { -webkit-margin-before: 0; margin-top:0;}
 /* sponsored by */
 .footer .sponsors p.tagline{ color:#ddd;position:absolute;left:50%;margin:0 0 0 -3.5em;font-size:0.93em;font-family:'museo sans';text-transform: uppercase;} 
 /* copyright */
-.footer .general > p{ color:#777;font-size:90%;position:absolute;left:50%;bottom:0;margin:0 0 0 -4.4em;} 
+.footer .general > p{ color:#777;font-size:90%;position:absolute;left:50%;bottom:0.5rem;margin:0 0 0 -4.4em;} 
 
 
 
