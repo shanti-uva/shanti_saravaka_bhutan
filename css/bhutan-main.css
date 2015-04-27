@@ -54,7 +54,8 @@ article ul ul ul ul { -webkit-margin-before: 0; margin-top:0;}
 /* hide drupal */
 .footer .general .content > span{ display:none;} 
 /* sponsored by */
-.footer .sponsors p.tagline{ color:#ddd;position:absolute;left:50%;margin:0 0 0 -3.5em;font-size:0.93em;font-family:'museo sans';text-transform: uppercase;} 
+.footer .sponsors p.tagline{ color:#ccc;position:absolute;left:50%;margin:0 0 0 -3.5em;font-size:0.93em;font-family:'museo sans';text-transform:uppercase;} 
+.footer .sponsors p.tagline::first-letter{ font-size:115%;}
 /* copyright */
 .footer .general > p{ color:#777;font-size:90%;position:absolute;left:50%;bottom:0.5rem;margin:0 0 0 -4.4em;} 
 
