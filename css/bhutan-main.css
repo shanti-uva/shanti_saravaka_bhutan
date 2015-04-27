@@ -19,13 +19,13 @@ article ul ul ul ul { -webkit-margin-before: 0; margin-top:0;}
 .page-sponsors .view-resources.btn-default{ display:none;}
 .sponsor-list .views-row{ margin:16px; clear:both;}
 .sponsor-list .views-row h2{ margin-bottom: 6px;}
-.sponsor-list .views-row img{ background-color:#325a6b;padding: 8px 18px;border:3px double #eee;float:right;margin-left:15px;-webkit-transition:border 300ms ease-out;-moz-transition:border 300ms ease-out;-o-transition:border 300ms ease-out;transition:border 300ms ease-out;}
+.sponsor-list .views-row img{ background-color:#325a6b;padding: 8px 18px;border:3px double #eee;border-radius:0;float:right;margin-left:15px;-webkit-transition:border 300ms ease-out;-moz-transition:border 300ms ease-out;-o-transition:border 300ms ease-out;transition:border 300ms ease-out;}
 .sponsor-list .views-row{ max-width:950px;}
 .sponsor-list .views-row-1 img{ padding:18px;max-width: 190px;}
 .sponsor-list .views-row-2 img{ padding:5px 18px 8px;max-width:200px;}
 .sponsor-list .views-row-3 img{ padding:15px 18px; max-width: 320px;}
-.sponsor-list .views-row img:hover{ border-color:transparent;}
-.sponsor-list .views-row img:active{ border-color:#eee;}
+.sponsor-list .views-row img:hover{ border-color:transparent;border-radius:4px;}
+.sponsor-list .views-row img:active{ border-color:#eee;border-radius:0;}
 
 .sponsor-list .views-row .summary{ padding: 0px 16px 16px 0px;}
 .sponsor-list .views-row .website{ display: block;clear: both;}
