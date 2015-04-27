@@ -35,7 +35,7 @@ article ul ul ul ul { -webkit-margin-before: 0; margin-top:0;}
 .sponsor-list .views-row .website .label{ font-size: 0.9em;color: #555;padding-left: 0px;}
 
 /** Footer **/
-.footer{ min-height: 120px; padding: 10px 15px; position:relative;}
+.footer{ min-height: 140px; padding: 10px 15px; position:relative;}
 .footer,	
 .footer .sponsors, 
 .footer .general,
@@ -45,15 +45,16 @@ article ul ul ul ul { -webkit-margin-before: 0; margin-top:0;}
 
 /* footer logos */
 .footer .views-field img.img-responsive{ width:auto; max-width:auto; margin:1.6rem 3rem 0 0;}
-.footer .views-row-1 .views-field img.img-responsive{ height:35px;}
-.footer .views-row-2 .views-field img.img-responsive{ height:45px; margin-top: 0.7rem;}
-.footer .views-row-3 .views-field img.img-responsive{ height:30px; margin-right:0;}
+.footer .views-row-1 .views-field img.img-responsive{ height:35px;} /* arcadia */
+.footer .views-row-2 .views-field img.img-responsive{ height:45px; margin-top: 0.7rem;} /* shejun */
+.footer .views-row-3 .views-field img.img-responsive{ height:30px; margin-right:0;} /* tibet center */
 
-.footer .general .content > span{ display:none;} /* hide drupal */
-
-.footer .general > p{ color:#777;font-size:90%;position:absolute;left:50%;bottom:0;margin:0 0 0 -4.4em;} /* copyright */
-.footer .sponsors p.tagline{ color:#ddd;position:absolute;left:50%;margin:0 0 0 -3.5em;font-size:0.93em;font-family:'museo sans';text-transform: uppercase;} /* sponsored by */
-
+/* hide drupal */
+.footer .general .content > span{ display:none;} 
+/* sponsored by */
+.footer .sponsors p.tagline{ color:#ddd;position:absolute;left:50%;margin:0 0 0 -3.5em;font-size:0.93em;font-family:'museo sans';text-transform: uppercase;} 
+/* copyright */
+.footer .general > p{ color:#777;font-size:90%;position:absolute;left:50%;bottom:0;margin:0 0 0 -4.4em;} 
 
 
 
