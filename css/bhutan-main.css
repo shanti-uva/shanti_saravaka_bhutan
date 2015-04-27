@@ -22,11 +22,11 @@ article ul ul ul ul { -webkit-margin-before: 0; margin-top:0;}
 
 .sponsor-list .views-row{ margin:16px; clear:both;}
 .sponsor-list .views-row h2{ margin-bottom: 6px;}
-.sponsor-list .views-row .logo img{ background-color: #3b697d;padding: 8px 18px;border:3px double #eee;float:right;margin-left:15px;}
+.sponsor-list .views-row .logo img{ background-color:#325a6b;padding: 8px 18px;border:3px double #eee;float:right;margin-left:15px;}
 .sponsor-list .views-row{ max-width:950px;}
 .sponsor-list .views-row-1 .logo img{ padding:15px 18px;}
 .sponsor-list .views-row-2 .logo img{ padding: 5px 18px 7px;}
-.sponsor-list .views-row-3 .logo img{ padding:15px 7px 15px;}
+.sponsor-list .views-row-3 .logo img{ padding:15px 7px 18px;}
 
 .sponsor-list .views-row .summary{ padding: 0px 16px 16px 0px;}
 .sponsor-list .views-row .website{ display: block;clear: both;}
