@@ -27,8 +27,8 @@ article ul ul ul ul { -webkit-margin-before: 0; margin-top:0;}
 .sponsor-list .views-row .logo img{ background-color: #3b697d;padding: 8px 18px;border:3px double #eee;float:right;margin-left:15px;}
 .sponsor-list .views-row{ max-width:950px;}
 .sponsor-list .views-row-1 .logo img{ padding:15px 18px;}
-.sponsor-list .views-row-2 .logo img{ padding: 5px 18px;}
-.sponsor-list .views-row-3 .logo img{ padding:15px 18px;}
+.sponsor-list .views-row-2 .logo img{ padding: 5px 18px 7px;}
+.sponsor-list .views-row-3 .logo img{ padding:15px 0 15px 5px;}
 
 .sponsor-list .views-row .summary{ padding: 0px 16px 16px 0px;}
 .sponsor-list .views-row .website{ display: block;clear: both;}
@@ -51,7 +51,7 @@ article ul ul ul ul { -webkit-margin-before: 0; margin-top:0;}
 
 .footer .general .content > span{ display:none;} /* hide drupal */
 
-.footer .general > p{ color:#777; position:absolute;left:50%;bottom:0;margin:0 0 0 -4.4em;} /* copyright */
+.footer .general > p{ color:#777;font-size:90%;position:absolute;left:50%;bottom:0;margin:0 0 0 -4.4em;} /* copyright */
 .footer .sponsors p.tagline{ color:#ddd;position:absolute;left:50%;margin:0 0 0 -3.5em;font-size:0.93em;font-family:'museo sans';text-transform: uppercase;} /* sponsored by */
 
 
