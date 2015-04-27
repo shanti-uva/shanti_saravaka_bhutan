@@ -57,10 +57,10 @@ article ul ul ul ul { -webkit-margin-before: 0; margin-top:0;}
 /* hide drupal */
 .footer .general .content > span{ display:none;} 
 /* sponsored by */
-.footer .sponsors p.tagline{ color:#888;position:absolute;left:50%;margin:0 0 0 -4em;font-size:0.93em;font-family:'museo sans';text-transform:uppercase;} 
-.footer .sponsors p.tagline::first-letter{ font-size:115%;}
+.footer .sponsors p.tagline{ color:#888;position:absolute;left:50%;margin:0 0 0 -4.62em;letter-spacing:2px;font-size:0.88em;font-family:'museo sans';text-transform:uppercase;} 
+.footer .sponsors p.tagline::first-letter{ font-size:117%;}
 /* copyright */
-.footer .general > p{ color:#777;font-size:90%;position:absolute;left:50%;bottom: -2rem;margin:0 0 0 -4.4em;} 
+.footer .general > p{ color:#707070;font-size:90%;position:absolute;left:50%;bottom:-2rem;margin:0 0 0 -4.4em;} 
 
 
 
