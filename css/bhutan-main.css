@@ -21,9 +21,9 @@ article ul ul ul ul { -webkit-margin-before: 0; margin-top:0;}
 .sponsor-list .views-row h2{ margin-bottom: 6px;}
 .sponsor-list .views-row img{ background-color:#325a6b;padding: 8px 18px;border:3px double #eee;float:right;margin-left:15px;}
 .sponsor-list .views-row{ max-width:950px;}
-.sponsor-list .views-row-1 img{ padding:18px;}
-.sponsor-list .views-row-2 img{ padding:2px 18px 4px;}
-.sponsor-list .views-row-3 img{ padding:15px 8px; max-width:275px;}
+.sponsor-list .views-row-1 img{ padding:18px;max-width: 190px;}
+.sponsor-list .views-row-2 img{ padding:5px 18px 8px;max-width:200px;}
+.sponsor-list .views-row-3 img{ padding:15px 8px; max-width: 300px;}
 .sponsor-list .views-row img:hover{ /* border-style:solid; */}
 
 .sponsor-list .views-row .summary{ padding: 0px 16px 16px 0px;}
