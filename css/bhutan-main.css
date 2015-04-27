@@ -11,15 +11,10 @@ article ul ul,
 article ul ul ul,
 article ul ul ul ul { -webkit-margin-before: 0; margin-top:0;}
 
-/*
-#search-flyout.extruder.right.isOpened .extruder-content{ border-right-width:13px;}
-*/
+/*-- #search-flyout.extruder.right.isOpened .extruder-content{ border-right-width:13px;} --*/
 
 /** To prevent images from spilling out over popup **/
 .modal img { max-width: 550px; }
-
-
-
 
 
 /** Sponsor List Page **/
@@ -27,9 +22,9 @@ article ul ul ul ul { -webkit-margin-before: 0; margin-top:0;}
 
 .footer .sponsors{ width:100%;}
 
-.sponsor-list .views-row{ margin: 16px;clear: both;}
-.sponsor-list .views-row h2{margin-bottom: 6px;}
-.sponsor-list .views-row .logo img { background-color: #3b697d;padding: 8px 18px;border:3px double #eee;float:right;margin-left:15px;}
+.sponsor-list .views-row{ margin:16px; clear:both;}
+.sponsor-list .views-row h2{ margin-bottom: 6px;}
+.sponsor-list .views-row .logo img{ background-color: #3b697d;padding: 8px 18px;border:3px double #eee;float:right;margin-left:15px;}
 .sponsor-list .views-row{ max-width:950px;}
 .sponsor-list .views-row-1 .logo img{ padding:15px 18px;}
 .sponsor-list .views-row-2 .logo img{ padding: 5px 18px;}
@@ -40,13 +35,13 @@ article ul ul ul ul { -webkit-margin-before: 0; margin-top:0;}
 .sponsor-list .views-row .website .label{ font-size: 0.9em;color: #555;padding-left: 0px;}
 
 /** Footer **/
-.footer{ min-height: 100px; padding: 10px 15px; position:relative;}
+.footer{ min-height: 120px; padding: 10px 15px; position:relative;}
 .footer,	
 .footer .sponsors, 
 .footer .general,
 .footer .sponsors .views-row{ float: left;}
 
-.footer .view-sponsor-logos{ display:inline-block;position:relative;top:2rem;left:50%;margin-left:-300px;opacity:0.7;}
+.footer .view-sponsor-logos{ display:inline-block;position:relative;top:1.5rem;left:50%;margin-left:-285px;opacity:0.7;}
 
 /* footer logos */
 .footer .views-field img.img-responsive{ width:auto; max-width:auto; margin:1.6rem 3rem 0 0;}
@@ -54,10 +49,13 @@ article ul ul ul ul { -webkit-margin-before: 0; margin-top:0;}
 .footer .views-row-2 .views-field img.img-responsive{ height:45px; margin-top: 0.7rem;}
 .footer .views-row-3 .views-field img.img-responsive{ height:30px; margin-right:0;}
 
-.footer .general .content > span{ display:none;}
+.footer .general .content > span{ display:none;} /* hide drupal */
 
-.footer .general > p{ position:absolute;left:50%;bottom:0;margin-left:-3.5em;} /* copyright */
-.footer .sponsors p.tagline{ position:absolute;left:50%;margin-left:-3.5em;} /* sponsored by */
+.footer .general > p{ color:#777; position:absolute;left:50%;bottom:0;margin:0 0 0 -4.4em;} /* copyright */
+.footer .sponsors p.tagline{ color:#ddd;position:absolute;left:50%;margin:0 0 0 -3.5em;font-size:0.93em;font-family:'museo sans';text-transform: uppercase;} /* sponsored by */
+
+
+
 
 @media screen and (max-width: 993px) {	/* this breakpoint from kmaps */
 	
