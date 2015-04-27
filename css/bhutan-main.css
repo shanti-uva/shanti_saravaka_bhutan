@@ -49,7 +49,7 @@ article ul ul ul ul { -webkit-margin-before: 0; margin-top:0;}
 
 .footer .views-row-1 .views-field img.img-responsive{ height:30px;} /* arcadia */
 .footer .views-row-2 .views-field img.img-responsive{ height:40px; margin-top: 0.7rem;} /* shejun */
-.footer .views-row-3 .views-field img.img-responsive{ height:30px; margin-right:0;margin-top:1.4rem;} /* tibet center */
+.footer .views-row-3 .views-field img.img-responsive{ height:28px; margin-right:0;margin-top:1.4rem;} /* tibet center */
 
 /* hide drupal */
 .footer .general .content > span{ display:none;} 
