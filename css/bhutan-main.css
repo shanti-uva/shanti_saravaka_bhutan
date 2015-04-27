@@ -30,14 +30,14 @@ article ul ul ul ul { -webkit-margin-before: 0; margin-top:0;}
 
 .sponsor-list .views-row .summary{ padding: 0px 16px 16px 0px;}
 .sponsor-list .views-row .website{ display: block;clear: both;}
-.sponsor-list .views-row .website .label{ font-size: 0.9em;color: #555;padding-left: 0px;}
+.sponsor-list .views-row .website .label{ font-size: 0.9em;color: #555;padding-left:0;}
 
 
 
 
 
 /** FOOTER **/
-.footer{ min-height: 140px; background:#222;padding: 10px 15px; position:relative;border-top:3px double #ccc;border-bottom:20px solid #000;box-shadow: inset 0 -2px 10px -4px rgba(0, 0, 0, 0.1400);}
+.footer{ min-height: 140px; background:#222;padding: 10px 15px 30px; position:relative;border-top:3px double #ccc;border-bottom:20px solid #000;box-shadow: inset 0 -2px 10px -4px rgba(0, 0, 0, 0.1400);}
 .footer,	
 .footer .sponsors, 
 .footer .general,
@@ -46,7 +46,7 @@ article ul ul ul ul { -webkit-margin-before: 0; margin-top:0;}
 .footer .view-sponsor-logos{ display:inline-block;position:relative;top:1.5rem;}
 
 /* footer logos */
-.footer .views-field img.img-responsive{ width:auto; max-width:auto; margin:1.6rem 3rem 0 0;opacity:0.7;}
+.footer .views-field img.img-responsive{ width:auto; max-width:auto; margin:1.6rem 3rem 0 0;opacity:0.5;}
 .footer .views-row-1 .views-field img.img-responsive{ height:35px;} /* arcadia */
 .footer .views-row-2 .views-field img.img-responsive{ height:45px; margin-top: 0.7rem;} /* shejun */
 .footer .views-row-3 .views-field img.img-responsive{ height:30px; margin-right:0;} /* tibet center */
@@ -54,12 +54,10 @@ article ul ul ul ul { -webkit-margin-before: 0; margin-top:0;}
 /* hide drupal */
 .footer .general .content > span{ display:none;} 
 /* sponsored by */
-.footer .sponsors p.tagline{ color:#ccc;position:absolute;left:50%;margin:0 0 0 -4em;font-size:0.93em;font-family:'museo sans';text-transform:uppercase;} 
+.footer .sponsors p.tagline{ color:#888;position:absolute;left:50%;margin:0 0 0 -4em;font-size:0.93em;font-family:'museo sans';text-transform:uppercase;} 
 .footer .sponsors p.tagline::first-letter{ font-size:115%;}
 /* copyright */
 .footer .general > p{ color:#777;font-size:90%;position:absolute;left:50%;bottom: -1.9rem;margin:0 0 0 -4.4em;} 
-
-
 
 
 
@@ -73,6 +71,7 @@ article ul ul ul ul { -webkit-margin-before: 0; margin-top:0;}
 
 @media screen and (min-width: 650px) {
 
+	.footer{ padding-bottom:10px;}
 	.footer .view-sponsor-logos{ left:50%;margin-left:-285px;}
 
 }
