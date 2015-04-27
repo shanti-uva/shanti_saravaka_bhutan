@@ -26,7 +26,7 @@ article ul ul ul ul { -webkit-margin-before: 0; margin-top:0;}
 .sponsor-list .views-row{ max-width:950px;}
 .sponsor-list .views-row-1 .logo img{ padding:15px 18px;}
 .sponsor-list .views-row-2 .logo img{ padding: 5px 18px 7px;}
-.sponsor-list .views-row-3 .logo img{ padding:15px 0 15px 5px;}
+.sponsor-list .views-row-3 .logo img{ padding:15px 7px 15px;}
 
 .sponsor-list .views-row .summary{ padding: 0px 16px 16px 0px;}
 .sponsor-list .views-row .website{ display: block;clear: both;}
