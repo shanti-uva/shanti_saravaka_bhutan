@@ -31,7 +31,6 @@
 .input-section .toggle-link:hover,
 .input-section .toggle-link .icon::before,
 .input-section .toggle-link:hover .icon::before,
-.input-section .selectpicker .caret:before,
 .input-section .feature-group .toggle-link.show-features .icon::before, 
 .view-section .nav-tabs>li.active>a, 
 .view-section .nav-tabs>li.active>a:hover, 
@@ -66,7 +65,6 @@
 .page-places .input-section .toggle-link:hover,
 .page-places .input-section .toggle-link .icon:::before,
 .page-places .input-section .toggle-link:hover .icon::before,
-.page-places .input-section .selectpicker .caret::before,
 .page-places .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a .check-mark,
 .page-places .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a:active .check-mark,
 .page-places .view-section .nav-tabs>li.active>a, 
@@ -92,8 +90,7 @@
 .page-subjects .view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
 .page-subjects .view-section .fancytree-node.fancytree-active > .glyphicon,
 .page-subjects .view-section .fancytree-node.fancytree-selected > .glyphicon,
-.page-subjects .carousel-feature-slides li.active div a:before,
-.page-subjects .main-content .selectpicker .caret::before{ color:#dc3c47 !important;color:rgba(220, 60, 71, 0.83) !important;}
+.page-subjects .carousel-feature-slides li.active div a:before{ color:#dc3c47 !important;color:rgba(220, 60, 71, 0.83) !important;}
 .page-subjects .carousel-feature-slides li div a:hover,
 .page-subjects .carousel-feature-slides li div a:active,
 .page-subjects .carousel-feature-slides li.active div a,
@@ -107,8 +104,6 @@
 .page-subjects .input-section .toggle-link .icon::before,
 .page-subjects .input-section .feature-group .toggle-link.show-features .icon::before, 
 .page-subjects .input-section .toggle-link:hover .icon::before,
-.page-subjects .input-section .selectpicker .caret::before,
-.page-subjects .main-content .selectpicker .caret::before,
 .page-subjects .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a .check-mark,
 .page-subjects .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a:active .check-mark,
 .page-subjects .view-section .nav-tabs>li.active>a, 
@@ -131,9 +126,7 @@
 /* darker shades below are used to better define details */
 .audio-video .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a .check-mark,
 .audio-video .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a:active .check-mark,
-.audio-video .feature-group .toggle-link.show-features .icon::before, 
-.audio-video .input-section .selectpicker .caret::before,
-.audio-video .main-content .selectpicker .caret::before,
+.audio-video .feature-group .toggle-link.show-features .icon::before,
 .audio-video .view-section .nav-tabs>li.active>a, 
 .audio-video .view-section .nav-tabs>li.active>a:hover, 
 .audio-video .view-section .nav-tabs>li.active>a:active,
@@ -158,10 +151,7 @@
 .texts .breadwrap ol li .icon{ background:#764B8D !important; }
 .texts .ss-full-tabs.nav-tabs>li.active,
 .texts .ss-full-tabs.nav-tabs>li.active:hover{ background:#764B8D !important; }
-.texts .shanticon-twitter,.shanticon-facebook,.shanticon-email,.shanticon-google,
-.texts .feature-group .toggle-link.show-features .icon::before, 
-.texts .input-section .selectpicker .caret::before,
-.texts .main-content .selectpicker .caret::before{ color:#764B8D !important; }
+.texts .feature-group .toggle-link.show-features .icon::before{ color:#764B8D !important; }
 
 
 /* Images Colors */
@@ -175,8 +165,6 @@
 .images .nav-justified>li.active::before,
 .images .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a .check-mark,
 .images .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a:active .check-mark,
-.images .input-section .selectpicker .caret::before,
-.images .main-content .selectpicker .caret::before,
 .images .feature-group .toggle-link.show-features .icon::before,
 .images .view-section .nav-tabs>li.active>a, 
 .images .view-section .nav-tabs>li.active>a:hover, 
