@@ -150,7 +150,18 @@
 .texts .breadwrap ol li .icon{ background:#764B8D !important; }
 .texts .nav-justified>li.active,
 .texts .nav-justified>li.active:hover{ background:#764B8D !important; }
-.texts .feature-group .toggle-link.show-features .icon::before{ color:#764B8D !important; }
+.texts .feature-group .toggle-link.show-features .icon::before,
+.texts .view-section .nav-tabs>li.active>a, 
+.texts .view-section .nav-tabs>li.active>a:hover, 
+.texts .view-section .nav-tabs>li.active>a:active,
+.texts .view-section .fancytree-container .glyphicon,
+.texts .view-section .fancytree-container .fancytree-node:hover > .glyphicon,
+.texts .view-section .fancytree-container .fancytree-node:active > .glyphicon,
+.texts .view-section .fancytree-node.fancytree-active > .glyphicon,
+.texts .view-section .fancytree-node.fancytree-selected > .glyphicon{ color:#764B8D !important; }
+.texts .view-section .nav-tabs>li.active>a, 
+.texts .view-section .nav-tabs>li.active>a:hover, 
+.texts .view-section .nav-tabs>li.active>a:active{ border-top-color: #764B8D !important;}
 
 
 /* Images Colors */
