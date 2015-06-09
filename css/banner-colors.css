@@ -10,7 +10,7 @@
 .bx-controls-direction a,
 .nav-justified>li.active a,
 .nav-justified>li.active a:hover,
-.nav-justified>li.active a:active{ background:#888 !important;}
+.nav-justified>li.active a:active{ background:#888 !important;} /* changed from #5293ae to #888 */
 .nav-justified>li.active::before,
 .view-section ul.fancytree-container .glyphicon,
 .view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
@@ -145,7 +145,6 @@
 /* custom theme colors */
 .texts.bhutan .basebg { background-color: #764B8D !important; } 
 .texts.bhutan .basecolor { color: #764B8D !important; } 
-   
 .texts.bhutan .titlearea,
 .texts.bhutan .breadwrap ol li .icon,
 .texts.bhutan .nav-justified>li.active,
