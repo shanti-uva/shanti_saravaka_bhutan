@@ -3,43 +3,6 @@
 /*-- Adjusts banners by content type shown ----*/
 /*---------------------------------------------*/
 
-/*--- Default Color for Banner *---------*/
-.titlearea,
-.carousel-control,
-.breadcrumb .icon,
-.bx-controls-direction a,
-.nav-justified>li.active a,
-.nav-justified>li.active a:hover,
-.nav-justified>li.active a:active{ background:#888 !important;} /* changed from #5293ae to #888 */
-.nav-justified>li.active::before,
-.view-section ul.fancytree-container .glyphicon,
-.view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
-.view-section .fancytree-node.fancytree-active > .glyphicon,
-.view-section .fancytree-node.fancytree-selected > .glyphicon,
-.carousel-feature-slides li.active div a:before{ color:#888 !important;}
-
-.carousel-feature-slides li div a:hover,
-.carousel-feature-slides li div a:active,
-.carousel-feature-slides li.active div a,
-#tab-main .each-photo a.thumbnail:hover,
-#tab-main .each-text a.thumbnail:hover,
-.content-resources .nav-pills li.active{ border-color: #888 !important; /*border-left:10px solid rgba(82, 147, 174, 0.83) !important;*/}
-/* darker shades below */
-.bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a .check-mark,
-.bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a:active .check-mark,
-.input-section .toggle-link,
-.input-section .toggle-link:hover,
-.input-section .toggle-link .icon::before,
-.input-section .toggle-link:hover .icon::before,
-.input-section .feature-group .toggle-link.show-features .icon::before, 
-.view-section .nav-tabs>li.active>a, 
-.view-section .nav-tabs>li.active>a:hover, 
-.view-section .nav-tabs>li.active>a:active{ color: #888 !important; /*color:rgba(82, 147, 174, 0.83) !important;*/}
-.view-section .nav-tabs>li.active>a, 
-.view-section .nav-tabs>li.active>a:hover, 
-.view-section .nav-tabs>li.active>a:active{ border-top-color: #888 !important; /* border-top-color: rgba(82, 147, 174, 0.83) !important;*/}
-/*------- End of Default Color -------------*/
-
 /* Colors Places */
 .page-places .titlearea,
 .page-places .carousel-control,
