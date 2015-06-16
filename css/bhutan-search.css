@@ -1,3 +1,5 @@
-.intro-search section.input-section {
-  display: none !important;
-}
+/** Hide search box on home page **/
+.intro-search
+{ display:none;}
+.intro-summary
+{ width:100% !important;}
