@@ -176,7 +176,7 @@ function sarvaka_bhutan_menu_breadcrumb_alter(&$active_trail, $item) {
 
 /**
  * Function to add meta tags for favicons and the like
- */
+ 
 function _sarvaka_bhutan_add_head_tags() {
 	$htags = array(
 		'link1' => array(
@@ -383,3 +383,4 @@ function _sarvaka_bhutan_add_head_tags() {
 		drupal_add_html_head($details, $key);
 	}
 }
+*/
