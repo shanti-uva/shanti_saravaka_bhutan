@@ -24,11 +24,11 @@
   </div>
 
 
-  <!-- LOAD menus -->
+  <!-- LOAD menus - these are deprecated mf8yk oct 26, 2015
   <section id="menu-main" class="menu-main-mobile { url:'<?php if(!empty($base_theme_path)) { print $base_theme_path; } else { print $theme_path; } ?>js/inc/menus/menu-ajax.php'} menu-accordion"> </section>
   <section id="menu-collections" class="menu-collections-mobile { url:'<?php if(!empty($base_theme_path)) { print $base_theme_path; } else { print $theme_path; } ?>js/inc/menus/menu-ajax.php'} menu-accordion"> </section>
-
-  <section id="menu" class="menu-main-desk" style="display:none;">
+  -->
+  <section id="menu" class="menu-main" style="display:none;">
     <nav id="menu-drill" role="navigation">
      <?php print $variables['user_menu_links']; ?>
     </nav>
