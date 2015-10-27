@@ -4,6 +4,13 @@
 .intro-summary
 { width:100% !important;}
 
+/* JIRA feedback button */
+.atlwdg-trigger.atlwdg-SUBTLE{
+	position: fixed;
+	right: 10rem !important;
+	border-right: 1px solid #ccc !important;
+	box-shadow: none !important;
+}
 
 
 /*--- Temporary styles to hide advance search options - mf8yk oct 27,2015 ---*/
