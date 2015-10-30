@@ -29,3 +29,9 @@
   display: none !important;
   border-top: none !important;
 }
+
+
+.view-section .tab-content{
+  border: 1px solid #ddd;
+  border-width: 0 1px;
+}
