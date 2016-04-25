@@ -13,7 +13,7 @@
         <!-- Banner Region -->
         <div class="row">
 
-          <header class="col-xs-12 titlearea banner<?php print $variables['banner_class']; ?>">
+          <header class="titlearea banner<?php print $variables['banner_class']; ?>">
            <div role="banner">
             <h1 class="page-title"><span class="icon shanticon-<?php print $variables['icon_class']; ?>"></span><span class="page-title-text">
             <?php

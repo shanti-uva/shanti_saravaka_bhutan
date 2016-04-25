@@ -9,20 +9,20 @@
 .page-places .breadcrumb .icon,
 .page-places .bx-controls-direction a,
 .page-places .nav-justified>li.active a,
-.page-places .nav-justified>li.active a:hover,
-.page-places .nav-justified>li.active a:active{ background:#4CA6FB !important;}
+.page-places .nav-justified>li.active a:focus,
+.page-places .nav-justified>li.active a:hover{ background:#4ca6fb !important;}
 .page-places .nav-justified>li.active::before,
 .page-places .view-section ul.fancytree-container .glyphicon,
 .page-places .view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
 .page-places .view-section .fancytree-node.fancytree-active > .glyphicon,
 .page-places .view-section .fancytree-node.fancytree-selected > .glyphicon,
-.page-places .carousel-feature-slides li.active div a::before{ color:#4CA6FB !important;}
+.page-places .carousel-feature-slides li.active div a::before{ color:#4ca6fb !important;}
 .page-places .carousel-feature-slides li div a:hover,
 .page-places .carousel-feature-slides li div a:active,
 .page-places .carousel-feature-slides li.active div a,
 .page-places #tab-main .each-photo a.thumbnail:hover,
-.page-places #tab-main .each-text a.thumbnail:hover{ border-color: #4CA6FB !important;}
-.page-places .content-resources .nav-pills li.active{ border-left:10px solid #4CA6FB !important;}
+.page-places #tab-main .each-text a.thumbnail:hover{ border-color: #4ca6fb !important;}
+.page-places .content-resources .nav-pills li.active{ border-left:10px solid #4ca6fb !important;}
 
 .page-places .input-section .toggle-link,
 .page-places .input-section .toggle-link:hover,
@@ -46,8 +46,8 @@
 .page-subjects .breadcrumb .icon,
 .page-subjects .bx-controls-direction a,
 .page-subjects .nav-justified>li.active a,
-.page-subjects .nav-justified>li.active a:hover,
-.page-subjects .nav-justified>li.active a:active{ background:#dc3c47 !important;}
+.page-subjects .nav-justified>li.active a:focus,
+.page-subjects .nav-justified>li.active a:hover{ background:#dc3c47 !important;}
 .page-subjects .nav-justified>li.active::before{ color:#dc3c47 !important;}
 .page-subjects .view-section ul.fancytree-container .glyphicon,
 .page-subjects .view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
@@ -83,8 +83,8 @@
 .audio-video.bhutan .carousel-control,
 .audio-video.bhutan .breadcrumb .icon,
 .audio-video.bhutan .nav-justified>li.active a,
-.audio-video.bhutan .nav-justified>li.active a:hover,
-.audio-video.bhutan .nav-justified>li.active a:active{ background-color:#32ccca !important;}
+.audio-video.bhutan .nav-justified>li.active a:focus,
+.audio-video.bhutan .nav-justified>li.active a:hover{ background-color:#32ccca !important;}
 .audio-video.bhutan .nav-justified>li.active::before{ color:#32ccca !important;}
 /* darker shades below are used to better define details */
 .audio-video.bhutan .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a .check-mark,
@@ -110,8 +110,9 @@
 .texts.bhutan .basecolor { color: #764B8D !important; } 
 .texts.bhutan .titlearea,
 .texts.bhutan .breadwrap ol li .icon,
-.texts.bhutan .nav-justified>li.active,
-.texts.bhutan .nav-justified>li.active:hover{ background:#764B8D !important; }
+.texts.bhutan .nav-justified>li.active a,
+.texts.bhutan .nav-justified>li.active a:focus,
+.texts.bhutan .nav-justified>li.active a:hover{ background:#764B8D !important; }
 .texts.bhutan .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a .check-mark,
 .texts.bhutan .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a:active .check-mark,
 .texts.bhutan .feature-group .toggle-link.show-features .icon::before,
@@ -136,8 +137,8 @@
 .images.bhutan .carousel-control,
 .images.bhutan .breadcrumb .icon,
 .images.bhutan .nav-justified>li.active a,
-.images.bhutan .nav-justified>li.active a:hover,
-.images.bhutan .nav-justified>li.active a:active{ background-color:#aea833 !important;}
+.images.bhutan .nav-justified>li.active a:focus,
+.images.bhutan .nav-justified>li.active a:hover{ background-color:#aea833 !important;}
 .images.bhutan .nav-justified>li.active::before,
 .images.bhutan .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a .check-mark,
 .images.bhutan .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a:active .check-mark,
