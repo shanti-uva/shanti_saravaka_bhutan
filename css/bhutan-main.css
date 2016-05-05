@@ -9,6 +9,7 @@ article ul ul ul ul { -webkit-margin-before: 0; margin-top:0;}
 /* .modal img { max-width: 550px; } */
 
 .navbar-header{ padding-left:1rem;}
+.navbar-header .navbar-brand{ line-height: 2.25em;}
 .site-logo{ width:500px; height:45px; position:relative; top:0.2rem;}
 .site-title{ display:none !important;}
 /*-- #search-flyout.extruder.right.isOpened .extruder-content{ border-right-width:13px;} --*/
@@ -30,15 +31,12 @@ article ul ul ul ul { -webkit-margin-before: 0; margin-top:0;}
 .sponsor-list .views-row .website{ display: block;clear: both;}
 .sponsor-list .views-row .website .label{ font-size: 0.9em;color: #555;padding-left:0;}
 
-.navbar-header .navbar-brand{ line-height: 2.25em;}
-
 /** FOOTER **/
 .footer{ min-height: 120px; background:#222;padding: 10px 15px 30px; position:relative;border-top:3px double #ccc;border-bottom:22px solid #000;}
 .footer,	
 .footer .sponsors, 
 .footer .general,
 .footer .sponsors .views-row{ float: left;}
-
 .footer .sponsors{ width:100%;}
 .footer .view-sponsor-logos{ display:inline-block;position:relative;top:1.5rem;}
 
@@ -53,12 +51,11 @@ article ul ul ul ul { -webkit-margin-before: 0; margin-top:0;}
 
 /* hide drupal */
 .footer .general .content > span{ display:none;} 
+/* copyright */
+.footer .general > p{ color:#707070;font-size:90%;position:absolute;left:50%;bottom:-2rem;margin:0 0 0 -4.4em;} 
 /* sponsored by */
 .footer .sponsors p.tagline{ color:#888;position:absolute;left:50%;margin:0 0 0 -4.62em;letter-spacing:2px;font-size:0.88em;font-family:'museo sans';text-transform:uppercase;} 
 .footer .sponsors p.tagline::first-letter{ font-size:117%;}
-/* copyright */
-.footer .general > p{ color:#707070;font-size:90%;position:absolute;left:50%;bottom:-2rem;margin:0 0 0 -4.4em;} 
-
 
 @media screen and (max-width: 993px) {	/* this breakpoint from kmaps */
 	
@@ -71,3 +68,5 @@ article ul ul ul ul { -webkit-margin-before: 0; margin-top:0;}
 	.footer{ padding-bottom:10px;}
 	.footer .view-sponsor-logos{ left:50%;margin-left:-255px;}
 }
+
+
