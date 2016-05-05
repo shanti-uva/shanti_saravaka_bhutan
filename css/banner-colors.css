@@ -106,8 +106,8 @@
 
 /*--- Text Colors -----*/
 /* custom theme colors */
-.texts.bhutan .basebg { background-color: #764B8D !important; } 
-.texts.bhutan .basecolor { color: #764B8D !important; } 
+/*.texts.bhutan .basebg { background-color: #764B8D !important; } 
+.texts.bhutan .basecolor { color: #764B8D !important; } */
 .texts.bhutan .titlearea,
 .texts.bhutan .breadwrap ol li .icon,
 .texts.bhutan .nav-justified>li.active a,
@@ -138,7 +138,7 @@
 .images.bhutan .breadcrumb .icon,
 .images.bhutan .nav-justified>li.active a,
 .images.bhutan .nav-justified>li.active a:focus,
-.images.bhutan .nav-justified>li.active a:hover{ background-color:#aea833 !important;}
+.images.bhutan .nav-justified>li.active a:hover{ background-color:#c0ba27 !important;}
 .images.bhutan .nav-justified>li.active::before,
 .images.bhutan .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a .check-mark,
 .images.bhutan .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a:active .check-mark,
@@ -150,9 +150,9 @@
 .images.bhutan .view-section .fancytree-container .fancytree-node:hover > .glyphicon,
 .images.bhutan .view-section .fancytree-container .fancytree-node:active > .glyphicon,
 .images.bhutan .view-section .fancytree-node.fancytree-active > .glyphicon,
-.images.bhutan .view-section .fancytree-node.fancytree-selected > .glyphicon{ color:#aea833 !important; }
-.images.bhutan .content-resources .nav-pills li.active{ border-color: #aea833 !important;}
+.images.bhutan .view-section .fancytree-node.fancytree-selected > .glyphicon{ color:#c0ba27 !important; }
+.images.bhutan .content-resources .nav-pills li.active{ border-color: #c0ba27 !important;}
 .images.bhutan .view-section .nav-tabs>li.active>a, 
 .images.bhutan .view-section .nav-tabs>li.active>a:hover, 
-.images.bhutan .view-section .nav-tabs>li.active>a:active{ border-top-color:#aea833 !important;}
+.images.bhutan .view-section .nav-tabs>li.active>a:active{ border-top-color:#c0ba27 !important;}
 /*--- END Audio Video colors ---*/
