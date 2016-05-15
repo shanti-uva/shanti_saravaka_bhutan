@@ -1,9 +1,17 @@
-/*---------------------------------------------*/
-/*------------  Banner Colors ------------------*/
-/*-- Adjusts banners by content type shown ----*/
-/*---------------------------------------------*/
+/**
+* Mandala Bhutan - Development
+* 
+* version 1.x - bhutan-colors.css
+* --------------------------------------------------
+* University of Virginia / SHANTI MANDALA / BHUTAN
+* --------------------------------------------------
+* 
+*/
 
-/* Colors Places */
+/* BEGIN custom colors */
+/**
+* Custom Colors - Places 
+*/
 .page-places .titlearea,
 .page-places .carousel-control,
 .page-places .breadcrumb .icon,
@@ -36,11 +44,11 @@
 .page-places .view-section .nav-tabs>li.active>a, 
 .page-places .view-section .nav-tabs>li.active>a:hover, 
 .page-places .view-section .nav-tabs>li.active>a:active{ border-top-color: #3f89ce !important;}
+/* END Places Colors */
 
-/*------- End of Places Colors ---------------*/
-
-
-/* Colors Subjects */
+/**
+* Custom Colors - Subjects 
+*/
 .page-subjects .titlearea,
 .page-subjects .carousel-control,
 .page-subjects .breadcrumb .icon,
@@ -76,9 +84,11 @@
 .page-subjects .view-section .nav-tabs>li.active>a, 
 .page-subjects .view-section .nav-tabs>li.active>a:hover, 
 .page-subjects .view-section .nav-tabs>li.active>a:active{ border-top-color: #dc3c47 !important;}
-/*-------- End of Subjects colors ----------------*/
+/* END of Subjects colors */
 
-/* Audio-Video Colors */
+/**
+* Custom Colors - Audio-Video 
+*/
 .audio-video.bhutan .titlearea,
 .audio-video.bhutan .carousel-control,
 .audio-video.bhutan .breadcrumb .icon,
@@ -102,12 +112,11 @@
 .audio-video.bhutan .view-section .nav-tabs>li.active>a, 
 .audio-video.bhutan .view-section .nav-tabs>li.active>a:hover, 
 .audio-video.bhutan .view-section .nav-tabs>li.active>a:active{ border-top-color: #2fbebc !important;}
-/*--- END Audio Video colors ---*/
+/* END Audio-Video colors */
 
-/*--- Text Colors -----*/
-/* custom theme colors */
-/*.texts.bhutan .basebg { background-color: #764B8D !important; } 
-.texts.bhutan .basecolor { color: #764B8D !important; } */
+/**
+* Custom Colors - Texts 
+*/
 .texts.bhutan .titlearea,
 .texts.bhutan .breadwrap ol li .icon,
 .texts.bhutan .nav-justified>li.active a,
@@ -129,10 +138,11 @@
 .texts.bhutan .view-section .nav-tabs>li.active>a:hover, 
 .texts.bhutan .view-section .nav-tabs>li.active>a:active{ border-top-color: #764B8D !important;}
 .texts.bhutan .content-resources .nav-pills li.active{ border-color: #764B8D !important; }
+/* END Texts colors */
 
-
-/* Images Colors */
-/* BEGIN custom theme colors */
+/**
+* Custom Colors - Images 
+*/
 .images.bhutan .titlearea,
 .images.bhutan .carousel-control,
 .images.bhutan .breadcrumb .icon,
@@ -155,4 +165,4 @@
 .images.bhutan .view-section .nav-tabs>li.active>a, 
 .images.bhutan .view-section .nav-tabs>li.active>a:hover, 
 .images.bhutan .view-section .nav-tabs>li.active>a:active{ border-top-color:#c0ba27 !important;}
-/*--- END Audio Video colors ---*/
+/* END Images colors */
