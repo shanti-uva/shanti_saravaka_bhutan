@@ -33,6 +33,7 @@
      <?php print $variables['user_menu_links']; ?>
     </nav>
   </section><!-- END menu -->
+
 </div> <!-- End wrap-all -->
 
 <?php print render($page['footer']); ?>
