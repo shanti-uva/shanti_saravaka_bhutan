@@ -11,7 +11,7 @@
       <article class="main-content" role="main">
       	
         <!-- Banner Region -->
-        <section class="row">
+        <section class="row" role="banner">
 
           <div class="titlearea banner<?php print $variables['banner_class']; ?>">
            <div>
@@ -45,7 +45,7 @@
 
 
         <!-- Begin Content Row -->
-        <section class="row row-offcanvas<?php print " $offcanvas_trigger_sb"; ?>">
+        <section class="row row-offcanvas<?php print " $offcanvas_trigger_sb"; ?>" role="main">
 
           <!-- Sidebar First Region -->
           <?php if ($page['sidebar_first']): ?>
@@ -80,7 +80,7 @@
           <?php endif; ?>
         </section>
 
-        <a href="#" class="back-to-top" role="button"><span class="icon fa"></span></a>
+        <a href="#" class="back-to-top" role="button" aria-label="Back to Top of Page"><span class="icon fa"></span></a>
       </article>
 
 		  <!-- Search Flyout -->
