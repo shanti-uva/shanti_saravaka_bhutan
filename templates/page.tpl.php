@@ -11,19 +11,22 @@
       <article class="main-content" role="main">
       	
         <!-- Banner Region -->
-        <div class="row">
+        <section class="row">
 
-          <header class="titlearea banner<?php print $variables['banner_class']; ?>">
-           <div role="banner">
-            <h1 class="page-title"><span class="icon shanticon-<?php print $variables['icon_class']; ?>"></span><span class="page-title-text">
-            <?php
-            	if(!empty($variables['default_title']) && !empty($variables['prefix_default_title'])) {
-            		print ($title == '')? $variables['default_title'] : $variables['default_title'] . ': ' . $title;
-            	} else {
-            		print ($title == '')? $variables['default_title']:$title;
-            	}
-              ?></span></h1>
-              <nav class="breadwrap" role="navigation" style="display:none;">
+          <div class="titlearea banner<?php print $variables['banner_class']; ?>">
+           <div>
+            <header role="banner">
+              <h1 class="page-title"><span class="icon shanticon-<?php print $variables['icon_class']; ?>"></span><span class="page-title-text">
+                <?php
+                	if(!empty($variables['default_title']) && !empty($variables['prefix_default_title'])) {
+                		print ($title == '')? $variables['default_title'] : $variables['default_title'] . ': ' . $title;
+                	} else {
+                		print ($title == '')? $variables['default_title']:$title;
+                	}
+                ?></span>
+              </h1>
+            </header> 
+              <nav class="breadwrap" style="display:none;">
                 <?php print theme('breadcrumb', array('breadcrumb' => $breadcrumb)); ?>
               </nav>
               <div class="banner-content">
@@ -36,13 +39,13 @@
                 ?>
               </div>
             </div>
-          </header>
+          </div>
 
-        </div> <!-- End of Banner Row -->
+        </section> <!-- End of Banner Row -->
 
 
         <!-- Begin Content Row -->
-        <div class="row row-offcanvas<?php print " $offcanvas_trigger_sb"; ?>">
+        <section class="row row-offcanvas<?php print " $offcanvas_trigger_sb"; ?>">
 
           <!-- Sidebar First Region -->
           <?php if ($page['sidebar_first']): ?>
@@ -75,9 +78,9 @@
               <?php print render($page['sidebar_second']); ?>
             </section>
           <?php endif; ?>
-        </div>
+        </section>
 
-        <a href="#" class="back-to-top"><span class="icon fa"></span></a>
+        <a href="#" class="back-to-top" role="button"><span class="icon fa"></span></a>
       </article>
 
 		  <!-- Search Flyout -->
@@ -92,7 +95,7 @@
 
   <!-- LOAD menus -->
   <section id="menu" class="menu-main" style="display:none;">
-    <nav id="menu-drill" role="navigation">
+    <nav id="menu-drill">
      <?php print $variables['user_menu_links']; ?>
     </nav>
   </section><!-- END menu -->

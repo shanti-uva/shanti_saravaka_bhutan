@@ -1,8 +1,8 @@
 <!-- Header Region from region--header.tpl.php -->
-<header class="header-banner">
+<div class="header-banner">
 	<div class="navbar navbar-default">
 		
-    <nav class="navbar-buttons" role="navigation">
+    <nav class="navbar-buttons">
       <span class="menu-icon menu-toggle"><a href="#"><span class="sr-only">Main Menu</span><span class="icon shanticon-menu"></span></a></span><!-- desktop > 768 drilldown menu : main-menu -->
     </nav>
 
@@ -16,7 +16,7 @@
       </a>
     </h1>
 
-    <nav id="sarvaka-header" class="region navbar-collapse collapse navtop" role="navigation"> <!-- desktop display > 768 -->
+    <nav id="sarvaka-header" class="region navbar-collapse collapse navtop"> <!-- desktop display > 768 -->
        <form class="form">
 	       <fieldset>
 	        <ul class="nav navbar-nav navbar-right">
@@ -31,5 +31,5 @@
  <!-- include shanti-explore-menu if it exists this is hidden until explore button clicked -->
  <?php if(module_exists('explore_menu')) { print render($variables['explore_menu']); } ?>
  
-</header>
+</div>
 <!-- End of Header Region -->
