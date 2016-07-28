@@ -1,5 +1,5 @@
 <!-- Header Region from region--header.tpl.php -->
-<div class="header-banner">
+<div class="site-banner">
 	<div class="navbar navbar-default">
 		
     <nav class="navbar-buttons">
